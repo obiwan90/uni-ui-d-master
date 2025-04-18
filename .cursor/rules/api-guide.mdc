@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# API使用指南
+
+项目API请求位于`/api`目录，按功能模块组织。
+
+## API工具
+- [utils/apiRequest.js](mdc:utils/apiRequest.js) - 通用API请求工具
+- [utils/request.js](mdc:utils/request.js) - 基础请求工具
+- [utils/customRequest.js](mdc:utils/customRequest.js) - 自定义请求工具

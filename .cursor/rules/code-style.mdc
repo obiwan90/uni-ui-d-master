@@ -1,0 +1,48 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 代码风格指南
+
+本项目使用Vue单文件组件（SFC）格式，遵循以下代码风格规范：
+
+## Vue组件结构
+```vue
+<template>
+  <!-- 模板内容 -->
+</template>
+
+<script>
+// 导入语句
+import Component from '@/components/Component';
+import { useStore } from '@/stores/store';
+
+export default {
+  // 选项按以下顺序排列
+  components: {},
+  props: {},
+  data() {
+    return {};
+  },
+  computed: {},
+  watch: {},
+  created() {},
+  mounted() {},
+  methods: {}
+};
+</script>
+
+<style lang="scss">
+/* 样式内容 */
+</style>
+```
+
+## 命名规范
+- 组件文件名：使用PascalCase，如`CustomHeader.vue`
+- 页面文件名：使用kebab-case，如`product-detail.vue`
+- JavaScript变量：使用camelCase，如`userInfo`
+- CSS类名：使用kebab-case，如`.custom-button`
+
+## 导入路径
+使用别名`@`表示项目根目录，如`@/components/Component`

@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 组件使用指南
+
+项目使用了多种自定义组件，位于`/components`目录。
+
+## 主要组件
+- `custom-header` - 自定义页面头部组件
+- `custom-tabbar` - 底部导航栏组件
+- `custom-shop-tabbar` - 商城底部导航栏组件
+- `custom-product-card` - 产品卡片组件
+- `custom-tag` - 自定义标签组件
+
+## 第三方UI组件
+- `uv-ui-tools` - UI组件库，在[main.js](mdc:main.js)中引入

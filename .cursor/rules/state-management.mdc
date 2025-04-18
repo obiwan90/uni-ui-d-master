@@ -1,0 +1,15 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 状态管理指南
+
+项目使用Pinia进行状态管理，所有状态存储位于`/stores`目录下。
+
+## 主要Store
+- [stores/tokenStore.js](mdc:stores/tokenStore.js) - 管理用户token和会话信息
+- [stores/userInfoStore.js](mdc:stores/userInfoStore.js) - 管理用户信息
+- [stores/locationStore.js](mdc:stores/locationStore.js) - 管理位置信息
+- [stores/tabStore.js](mdc:stores/tabStore.js) - 管理标签页状态
+- [stores/initFinished.js](mdc:stores/initFinished.js) - 管理初始化状态

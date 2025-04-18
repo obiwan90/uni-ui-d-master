@@ -1,0 +1,26 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 页面结构指南
+
+本项目使用的是uni-app框架，页面结构遵循uni-app的规范。
+
+## 主要页面目录
+- `/pages` - 主要页面
+  - `/pages/home` - 首页
+  - `/pages/index` - 索引页
+  - `/pages/market` - 市场页
+  - `/pages/message` - 消息页
+  - `/pages/mine` - 我的页面
+
+## 业务功能页面
+- `/pages*` 前缀的目录包含各种业务功能页面，如：
+  - `/pagesLogin` - 登录页面
+  - `/pagesProduct` - 产品页面
+  - `/pagesOrder` - 订单页面
+  - `/pagesShopCar` - 购物车页面
+
+## 页面配置
+- [pages.json](mdc:pages.json) - 配置所有页面的路由和窗口样式

@@ -1,0 +1,22 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 项目概览
+
+这是一个基于uni-app的移动应用项目，主要用于商城和产品管理功能。
+
+## 主要入口文件
+- [main.js](mdc:main.js) - 应用的主入口文件
+- [App.vue](mdc:App.vue) - 应用的根组件
+- [pages.json](mdc:pages.json) - 页面路由配置
+
+## 项目架构
+- `/api` - API请求模块
+- `/components` - 通用组件
+- `/pages` - 主要页面
+- `/pages*` - 业务功能页面
+- `/stores` - Pinia状态管理
+- `/utils` - 工具函数
+- `/static` - 静态资源

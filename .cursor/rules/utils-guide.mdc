@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 工具函数指南
+
+项目中的工具函数位于`/utils`目录，提供各种通用功能。
+
+## 主要工具函数
+- [utils/common.js](mdc:utils/common.js) - 通用工具函数集合
+- [utils/mixin.js](mdc:utils/mixin.js) - Vue混入功能
+- [utils/interceptor.js.js](mdc:utils/interceptor.js.js) - 路由拦截器
+- [utils/localStorage.js](mdc:utils/localStorage.js) - 本地存储工具
+- [utils/debounce.js](mdc:utils/debounce.js) - 防抖函数
+- [utils/wxMapAPI.js](mdc:utils/wxMapAPI.js) - 微信地图API工具
