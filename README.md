@@ -218,27 +218,10 @@ userStore.updateUserInfo(newInfo);
 2. 将生成的dist文件夹部署到Web服务器
 3. 配置服务器（nginx/apache等）指向该目录
 
-## 常见问题
-
-1. **Q: 微信登录授权失败怎么处理?**
-   A: 检查manifest.json中的appid配置是否正确，确保小程序已授权相关API
-
-2. **Q: 地图功能无法正常显示?**
-   A: 确认是否正确配置了位置权限，微信小程序需要在manifest.json中配置permission
-
-3. **Q: 如何处理跨域问题?**
-   A: 在开发环境可通过配置代理解决，生产环境需服务端支持CORS
-
-## 贡献指南
-
-1. Fork 项目仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 提交Pull Request
 
 ## 版权和许可
+内部使用，禁止分发
+版权所有 © 2025 [闲置新生] 保留所有权利。
 
-版权所有 © 2023 [公司/团队名称]
-
-本项目采用 [许可证类型] 许可 - 详情请查看 LICENSE 文件
+本软件为专有软件，未经授权不得复制、修改、分发或用于任何商业用途。
+使用本软件即表示您接受我们的使用条款和条件。
