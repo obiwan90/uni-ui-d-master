@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "custom-channel-tap": "../../../components/custom-channel-tap/custom-channel-tap",
+    "custom-tag": "../../../components/custom-tag/custom-tag"
+  }
+}

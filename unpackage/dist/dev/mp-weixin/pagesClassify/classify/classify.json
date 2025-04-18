@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "分类",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "van-image": "../../wxcomponents/dist/image/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "uv-tabs": "../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging",
+    "custom-shop-tabbar": "../../components/custom-shop-tabbar/custom-shop-tabbar",
+    "qiao-select": "../../uni_modules/qiao-select/components/qiao-select/qiaoSelect"
+  }
+}

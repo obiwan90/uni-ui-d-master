@@ -1,0 +1,1 @@
+"use strict";const e=require("../../utils/customRequest.js");exports.apiAddWxUser=function(s){return e.customRequest("/Home/Users/add",s,"POST")},exports.apiGetUserInfo=function(s){return e.customRequest("/Home/Users/infos",s,"POST")},exports.apiUpdateUserInfo=function(s){return e.customRequest("/Home/Users/updates",s,"POST")};

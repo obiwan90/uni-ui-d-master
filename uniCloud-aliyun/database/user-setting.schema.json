@@ -1,0 +1,38 @@
+{
+	"bsonType": "object",
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"required": [
+	
+	],
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"user_id": {
+			"bsonType": "string",
+			"description": "用户id"
+		},
+		"adminLx": {
+			"bsonType": "string",
+			"description": "用户类型"
+		},
+		"adminId": {
+			"bsonType": "string",
+			"description": "用户类型id"
+		},
+		"identityData": {
+			"bsonType": "array",
+			"description": "settingData数据"
+		},
+		"selectedMine": {
+			"bsonType": "string",
+			"description": "面板选择"
+		}
+	},
+	"version": "0.0.1"
+}

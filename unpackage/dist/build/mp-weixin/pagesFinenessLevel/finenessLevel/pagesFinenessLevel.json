@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "uv-tabs": "../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs"
+  }
+}

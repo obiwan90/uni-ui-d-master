@@ -1,0 +1,1 @@
+"use strict";const i=require("../common/vendor.js"),e=i.defineStore("initFinished",{state:()=>({initFinished:i.index.getStorageSync("initFinished")||!1}),actions:{setInitFinished(e){this.initFinished=e,i.index.setStorageSync("initFinished",e)}}});exports.useInitFinishedStore=e;

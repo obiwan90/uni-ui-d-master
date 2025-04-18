@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "van-tag": "../../wxcomponents/dist/tag/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging",
+    "qiao-select": "../../uni_modules/qiao-select/components/qiao-select/qiaoSelect"
+  }
+}

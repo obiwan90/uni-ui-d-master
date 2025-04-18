@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-checkbox": "../../../uni_modules/uv-checkbox/components/uv-checkbox/uv-checkbox",
+    "uv-checkbox-group": "../../../uni_modules/uv-checkbox/components/uv-checkbox-group/uv-checkbox-group"
+  }
+}

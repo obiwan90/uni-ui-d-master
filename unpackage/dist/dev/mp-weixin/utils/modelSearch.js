@@ -1,0 +1,13 @@
+"use strict";
+const common_vendor = require("../common/vendor.js");
+const searchLogDbName = "opendb-search-log";
+const mallGoodsDbName = "by-search-model";
+const keywordDbName = "keyword";
+const db = common_vendor.Vs.database();
+db.collection(searchLogDbName);
+db.collection(mallGoodsDbName);
+db.collection(keywordDbName);
+common_vendor.ref("");
+common_vendor.ref([]);
+common_vendor.Vs.importObject("search-model");
+common_vendor.createJieba();

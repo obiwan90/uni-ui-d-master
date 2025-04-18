@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "van-overlay": "../../wxcomponents/dist/overlay/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "qiao-select": "../../uni_modules/qiao-select/components/qiao-select/qiaoSelect",
+    "quality-saixuan": "./components/qualitySaixuan"
+  }
+}

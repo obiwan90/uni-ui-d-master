@@ -1,0 +1,1 @@
+<view><view class="main_box"><classify u-i="a4a0c4e4-0" bind:__l="__l"></classify><mine wx:if="{{a}}" u-i="a4a0c4e4-1" bind:__l="__l"></mine></view><custom-tabbar wx:if="{{b}}" u-i="a4a0c4e4-2" bind:__l="__l"></custom-tabbar></view>

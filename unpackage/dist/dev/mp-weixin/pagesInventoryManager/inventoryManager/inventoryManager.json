@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "van-dropdown-menu": "../../wxcomponents/dist/dropdown-menu/index",
+    "van-dropdown-item": "../../wxcomponents/dist/dropdown-item/index",
+    "van-tag": "../../wxcomponents/dist/tag/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "uni-data-select": "../../uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+    "uni-dateformat": "../../uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "qiao-select": "../../uni_modules/qiao-select/components/qiao-select/qiaoSelect",
+    "inventory-manager-saixuan": "./components/inventoryManagerSaixuan",
+    "product-control-pannel": "./components/productControlPannel",
+    "export-log-pannel": "./components/exportLog"
+  }
+}

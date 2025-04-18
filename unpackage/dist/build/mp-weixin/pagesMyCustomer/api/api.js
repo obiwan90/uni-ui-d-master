@@ -1,0 +1,1 @@
+"use strict";const e=require("../../utils/customRequest.js");exports.apiCustomerAdd=function(t){return e.customRequest("/Home/Users/customeradd",t,"POST")},exports.apiCustomerSearch=function(t){return e.customRequest("/Home/Customer/select",t,"POST")};

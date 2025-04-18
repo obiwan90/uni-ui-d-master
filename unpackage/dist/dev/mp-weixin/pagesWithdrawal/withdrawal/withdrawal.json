@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-header": "../../components/custom-header/custom-header",
+    "uv-cell": "../../uni_modules/uv-cell/components/uv-cell/uv-cell",
+    "uv-cell-group": "../../uni_modules/uv-cell/components/uv-cell-group/uv-cell-group",
+    "uv-checkbox": "../../uni_modules/uv-checkbox/components/uv-checkbox/uv-checkbox",
+    "uv-checkbox-group": "../../uni_modules/uv-checkbox/components/uv-checkbox-group/uv-checkbox-group",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "code-pannel": "./components/codePannel"
+  }
+}

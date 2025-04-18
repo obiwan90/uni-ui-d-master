@@ -1,0 +1,1 @@
+"use strict";const e=require("../../../common/vendor.js"),r={__name:"joinUs-pannel",props:{qrCodeUrl:{type:String,required:""}},setup:e=>(r,o)=>({a:e.qrCodeUrl})},o=e._export_sfc(r,[["__scopeId","data-v-aea4d97d"]]);wx.createComponent(o);

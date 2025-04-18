@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-tag": "../../wxcomponents/dist/tag/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "pay-pannel": "./components/payPannel",
+    "rule-pannel": "./components/rulePannel"
+  }
+}

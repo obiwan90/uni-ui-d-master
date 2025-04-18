@@ -1,0 +1,253 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.jixingPannel.data-v-ac5a109c {
+  box-sizing: border-box;
+  width: 750rpx;
+  height: 1200rpx;
+  background: #F3F2F6;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.1);
+  border-radius: 20rpx 20rpx 0rpx 0rpx;
+  display: flex;
+  flex-direction: column;
+}
+.jixingPannel .header.data-v-ac5a109c {
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.jixingPannel .header text.data-v-ac5a109c {
+  width: 144rpx;
+  height: 50rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: bold;
+  font-size: 36rpx;
+  color: #1f1f1f;
+}
+.jixingPannel .header image.data-v-ac5a109c {
+  height: 32rpx;
+  width: 32rpx;
+}
+.jixingPannel .pannel-btn.data-v-ac5a109c {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 750rpx;
+  height: 182rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.1);
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-top: 24rpx;
+}
+.jixingPannel .pannel-btn .btn.data-v-ac5a109c {
+  display: flex;
+  justify-content: space-between;
+}
+.jixingPannel .pannel-btn .btn .btn1.data-v-ac5a109c {
+  width: 232rpx;
+  height: 96rpx;
+  background: #f2f3f6;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.jixingPannel .pannel-btn .btn .btn1 text.data-v-ac5a109c {
+  width: 60rpx;
+  height: 42rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 30rpx;
+  color: #1f1f1f;
+}
+.jixingPannel .pannel-btn .btn .btn2.data-v-ac5a109c {
+  width: 444rpx;
+  height: 96rpx;
+  background: linear-gradient(135deg, #ed784b 0%, #eb4636 100%);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.jixingPannel .pannel-btn .btn .btn2 text.data-v-ac5a109c {
+  width: 60rpx;
+  height: 42rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 30rpx;
+  color: #ffffff;
+}
+.jixingPannel .tab-bar.data-v-ac5a109c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.jixingPannel .tab-bar .tab.data-v-ac5a109c {
+  width: 210rpx;
+  height: 64rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.05);
+  border-radius: 10rpx 10rpx 10rpx 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.jixingPannel .tab-bar .tab.selected.data-v-ac5a109c {
+  background: #FFD0BE;
+}
+.jixingPannel .tab-bar .tab text.data-v-ac5a109c {
+  height: 40rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #303133;
+}
+.jixingPannel .tabs.data-v-ac5a109c {
+  margin-bottom: 20rpx;
+}
+.jixingPannel .main.data-v-ac5a109c {
+  display: flex;
+  justify-content: space-between;
+}
+.jixingPannel .main .main-l.data-v-ac5a109c {
+  height: 700rpx;
+  width: 144rpx;
+  background: #ffffff;
+  border-radius: 0rpx 20rpx 20rpx 0rpx;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.jixingPannel .main .main-l .main-l-card.data-v-ac5a109c {
+  width: 135rpx;
+  height: 96rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 0 20rpx 20rpx 0;
+}
+.jixingPannel .main .main-l .main-l-card text.data-v-ac5a109c {
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #1f1f1f;
+  text-align: center;
+  transition: color 0.3s ease;
+  /* 为文本颜色添加过渡效果 */
+}
+.jixingPannel .main .main-l .main-l-card.selected.data-v-ac5a109c {
+  transition: all 0.3s ease;
+  background: linear-gradient(270deg, #FFD0BE 0%, #FFFFFF 100%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* 改变阴影 */
+  border-left: 5px solid #FF7F50;
+  /* 添加左侧边框 */
+  transform: scale(1.05);
+  /* 轻微放大 */
+}
+.jixingPannel .main .main-l .main-l-card.selected text.data-v-ac5a109c {
+  color: #ED5446;
+  /* 改变文本颜色 */
+  font-weight: bold;
+  /* 加粗文本 */
+}
+.jixingPannel .main .main-r.data-v-ac5a109c {
+  box-sizing: border-box;
+  width: 592rpx;
+  height: 700rpx;
+  background: #ffffff;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.jixingPannel .main .main-r .scroll-content.data-v-ac5a109c {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.jixingPannel .main .main-r .scroll-content .main-box.data-v-ac5a109c {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.jixingPannel .main .main-r .scroll-content .main-box .box-header text.data-v-ac5a109c {
+  height: 36rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 550;
+  font-size: 26rpx;
+  color: #1f1f1f;
+}
+.jixingPannel .main .main-r .scroll-content .main-box .box-content.data-v-ac5a109c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.jixingPannel .main .main-r .scroll-content .main-box .box-content .box-card.data-v-ac5a109c {
+  margin-top: 16rpx;
+  width: 258rpx;
+  height: 64rpx;
+  background: #f9f9f9;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.jixingPannel .main .main-r .scroll-content .main-box .box-content .box-card.selected.data-v-ac5a109c {
+  background: #FFD0BE;
+}
+.jixingPannel .main .main-r .scroll-content .main-box .box-content .box-card text.data-v-ac5a109c {
+  height: 34rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #1f1f1f;
+  white-space: nowrap;
+  /* 不换行 */
+  overflow: hidden;
+  /* 溢出隐藏 */
+  text-overflow: ellipsis;
+  /* 显示省略号 */
+  max-width: 100%;
+  /* 限制最大宽度 */
+}

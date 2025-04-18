@@ -1,0 +1,502 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/test/test"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesClassify",
+      "pages": [
+        "classify/classify"
+      ]
+    },
+    {
+      "root": "pagesProduct",
+      "pages": [
+        "product/product"
+      ]
+    },
+    {
+      "root": "pagesShop",
+      "pages": [
+        "index/index"
+      ]
+    },
+    {
+      "root": "pagesShopCar",
+      "pages": [
+        "shopCar/shopCar"
+      ]
+    },
+    {
+      "root": "pagesSearch",
+      "pages": [
+        "search/search"
+      ]
+    },
+    {
+      "root": "pagesMaintenance",
+      "pages": [
+        "maintenance/maintenance"
+      ]
+    },
+    {
+      "root": "pagesLogin",
+      "pages": [
+        "login/login"
+      ]
+    },
+    {
+      "root": "pagesProductDetail",
+      "pages": [
+        "productDetail/productDetail"
+      ]
+    },
+    {
+      "root": "pagesSubOrder",
+      "pages": [
+        "subOrder/subOrder"
+      ]
+    },
+    {
+      "root": "pagesPaySuccess",
+      "pages": [
+        "paySuccess/paySuccess"
+      ]
+    },
+    {
+      "root": "pagesRecovery",
+      "pages": [
+        "recovery/recovery"
+      ]
+    },
+    {
+      "root": "pagesMarket",
+      "pages": [
+        "market/market"
+      ]
+    },
+    {
+      "root": "pagesSeeking",
+      "pages": [
+        "seeking/seeking"
+      ]
+    },
+    {
+      "root": "pagesSell",
+      "pages": [
+        "sell/sell"
+      ]
+    },
+    {
+      "root": "pagesNewSell",
+      "pages": [
+        "newSell/newSell"
+      ]
+    },
+    {
+      "root": "pagesNewSeeking",
+      "pages": [
+        "newSeeking/newSeeking"
+      ]
+    },
+    {
+      "root": "pagesNewPosting",
+      "pages": [
+        "newPosting/newPosting"
+      ]
+    },
+    {
+      "root": "pagesAddress",
+      "pages": [
+        "address/address"
+      ]
+    },
+    {
+      "root": "pagesAddAddress",
+      "pages": [
+        "addAddress/addAddress"
+      ]
+    },
+    {
+      "root": "pagesCustomMine",
+      "pages": [
+        "customMine/customMine"
+      ]
+    },
+    {
+      "root": "pagesUserMine",
+      "pages": [
+        "userMine/userMine"
+      ]
+    },
+    {
+      "root": "pagesMenber",
+      "pages": [
+        "menber/menber"
+      ]
+    },
+    {
+      "root": "pagesOrder",
+      "pages": [
+        "order/order"
+      ]
+    },
+    {
+      "root": "pagesOrderDetail",
+      "pages": [
+        "orderDetail/orderDetail"
+      ]
+    },
+    {
+      "root": "pagesFirseProduct",
+      "pages": [
+        "fristProduct/fristProduct"
+      ]
+    },
+    {
+      "root": "pagesAccount",
+      "pages": [
+        "account/account"
+      ]
+    },
+    {
+      "root": "pagesMarketCount",
+      "pages": [
+        "marketCount/marketCount"
+      ]
+    },
+    {
+      "root": "pagesFineness",
+      "pages": [
+        "fineness/fineness"
+      ]
+    },
+    {
+      "root": "pagesFinenessDetail",
+      "pages": [
+        "finenessDetail/finenessDetail"
+      ]
+    },
+    {
+      "root": "pagesFinenessJudge",
+      "pages": [
+        "finenessJudge/finenessJudge"
+      ]
+    },
+    {
+      "root": "pagesSuggest",
+      "pages": [
+        "suggest/suggest"
+      ]
+    },
+    {
+      "root": "pagesProductInput",
+      "pages": [
+        "productInput/productInput"
+      ]
+    },
+    {
+      "root": "pagesFuncCheck",
+      "pages": [
+        "funcCheck/funcCheck"
+      ]
+    },
+    {
+      "root": "pagesMaintenanceInput",
+      "pages": [
+        "maintenanceInput/maintenanceInput"
+      ]
+    },
+    {
+      "root": "pagesYjOrderDetail",
+      "pages": [
+        "yjOrderDetail/yjOrderDetail"
+      ]
+    },
+    {
+      "root": "pagesShOrderDetail",
+      "pages": [
+        "shOrderDetail/shOrderDetail"
+      ]
+    },
+    {
+      "root": "pagesCustomFristProductAfterSales",
+      "pages": [
+        "customFristProductAfterSalse/customFristProductAfterSalse"
+      ]
+    },
+    {
+      "root": "pagesCustomOrder",
+      "pages": [
+        "customOrder/customOrder"
+      ]
+    },
+    {
+      "root": "pagesCustomSellOrderDetail",
+      "pages": [
+        "customSellOrderDetail/customSellOrderDetail"
+      ]
+    },
+    {
+      "root": "pagesCustomServiceOrderDetail",
+      "pages": [
+        "customServiceOrderDetail/customServiceOrderDetail"
+      ]
+    },
+    {
+      "root": "pagesCustomYjOrderDetail",
+      "pages": [
+        "customYjOrderDetail/customYjOrderDetail"
+      ]
+    },
+    {
+      "root": "pagesServiceOrderDetail",
+      "pages": [
+        "serviceOrderDetail/serviceOrderDetail"
+      ]
+    },
+    {
+      "root": "pagesQualityControl",
+      "pages": [
+        "qualityControl/qualityControl"
+      ]
+    },
+    {
+      "root": "pagesFinance",
+      "pages": [
+        "finance/finance"
+      ]
+    },
+    {
+      "root": "pagesRecoveryDetail",
+      "pages": [
+        "recoveryDetail/recoveryDetail"
+      ]
+    },
+    {
+      "root": "pagesEditLog",
+      "pages": [
+        "editLog/editLog"
+      ]
+    },
+    {
+      "root": "pagesTakePhoto",
+      "pages": [
+        "takePhoto/takePhoto"
+      ]
+    },
+    {
+      "root": "pagesListingProduct",
+      "pages": [
+        "listingProduct/listingProduct"
+      ]
+    },
+    {
+      "root": "pagesInventoryManager",
+      "pages": [
+        "inventoryManager/inventoryManager"
+      ]
+    },
+    {
+      "root": "pagesFirstWholesale",
+      "pages": [
+        "firstWholeSale/firstWholeSale"
+      ]
+    },
+    {
+      "root": "pagesImeiTrack",
+      "pages": [
+        "ImeiTrack/imeiTrack"
+      ]
+    },
+    {
+      "root": "pagesDataCenter",
+      "pages": [
+        "dataCenter/dataCenter"
+      ]
+    },
+    {
+      "root": "pagesCustomManager",
+      "pages": [
+        "customManager/customManager"
+      ]
+    },
+    {
+      "root": "pagesMyCustomer",
+      "pages": [
+        "myCustomer/myCustomer"
+      ]
+    },
+    {
+      "root": "pagesDataCenterDetail",
+      "pages": [
+        "dataCenterDetail/dataCenterDetail"
+      ]
+    },
+    {
+      "root": "pagesDataCenterProductData",
+      "pages": [
+        "dataCenterProductData/dataCenterProductData"
+      ]
+    },
+    {
+      "root": "pagesDataCenterProductList",
+      "pages": [
+        "dataCenterProductList/dataCenterProductList"
+      ]
+    },
+    {
+      "root": "pagesFinanceDetail",
+      "pages": [
+        "financeDetail/financeDetail"
+      ]
+    },
+    {
+      "root": "pagesStaffManager",
+      "pages": [
+        "staffManager/staffManager"
+      ]
+    },
+    {
+      "root": "pagesAuthority",
+      "pages": [
+        "authority/authority"
+      ]
+    },
+    {
+      "root": "pagesStaffInfos",
+      "pages": [
+        "staffInfos/staffInfos"
+      ]
+    },
+    {
+      "root": "pagesFinenessLevel",
+      "pages": [
+        "finenessLevel/pagesFinenessLevel"
+      ]
+    },
+    {
+      "root": "pagesRecoveryLevel",
+      "pages": [
+        "recoveryLevel/recoveryLevel"
+      ]
+    },
+    {
+      "root": "pagesOneClickUpload",
+      "pages": [
+        "oneClickUpload/oneClickUpload"
+      ]
+    },
+    {
+      "root": "pagesProcurementDescription",
+      "pages": [
+        "procurementDescription/procurementDescription"
+      ]
+    },
+    {
+      "root": "pagesAdmin",
+      "pages": [
+        "admin/admin"
+      ]
+    },
+    {
+      "root": "pagesPayAccount",
+      "pages": [
+        "payAccount/payAccount"
+      ]
+    },
+    {
+      "root": "pagesAftersalesRules",
+      "pages": [
+        "aftersalesRules/aftersalesRules"
+      ]
+    },
+    {
+      "root": "pagesWarehouseManagement",
+      "pages": [
+        "warehouseManagement/warehouseManagement",
+        "warehouseManagement/new"
+      ]
+    },
+    {
+      "root": "pagesMovingInventory",
+      "pages": [
+        "movingInventory/movingInventory"
+      ]
+    },
+    {
+      "root": "pagesShippingAddress",
+      "pages": [
+        "shippingAddress/shippingAddress",
+        "shippingAddress/new"
+      ]
+    },
+    {
+      "root": "pagesWithdrawal",
+      "pages": [
+        "withdrawal/withdrawal"
+      ]
+    },
+    {
+      "root": "pagesApproval",
+      "pages": [
+        "approval/approval"
+      ]
+    },
+    {
+      "root": "pagesQualityReport",
+      "pages": [
+        "qualityReport/qualityReport"
+      ]
+    }
+  ],
+  "usingComponents": {
+    "van-uploader": "/wxcomponents/dist/uploader/index",
+    "van-image": "/wxcomponents/dist/image/index",
+    "van-stepper": "/wxcomponents/dist/stepper/index",
+    "van-tag": "/wxcomponents/dist/tag/index",
+    "van-loading": "/wxcomponents/dist/loading/index"
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "闲置新生-二手批发平台",
+    "navigationBarBackgroundColor": "#F3F3F6",
+    "backgroundColor": "#F3F3F6",
+    "navigationStyle": "custom"
+  },
+  "preloadRule": {
+    "pages/home/home": {
+      "network": "all",
+      "packages": [
+        "pagesClassify",
+        "pagesUserMine",
+        "pagesCustomMine"
+      ]
+    }
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "plugins": {
+    "chooseLocation": {
+      "version": "1.0.12",
+      "provider": "wx76a9a06e5b4e693e"
+    },
+    "kdzs-plugin": {
+      "version": "1.0.3",
+      "provider": "wx24b8e8aa7f0c5bcf"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation",
+    "chooseAddress"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序定位"
+    },
+    "scope.userFuzzyLocation": {
+      "desc": "你的位置信息将用于小程序定位"
+    }
+  }
+}

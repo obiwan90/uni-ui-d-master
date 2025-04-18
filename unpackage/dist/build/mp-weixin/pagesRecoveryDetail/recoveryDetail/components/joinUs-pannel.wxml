@@ -1,0 +1,1 @@
+<view class="joinUs-layout data-v-aea4d97d"><image class="data-v-aea4d97d" src="{{a}}" mode="aspectFill" style="height:200px;width:200px;margin-top:20rpx" show-menu-by-longpress="{{true}}"></image><text class="data-v-aea4d97d" style="font-family:PingFang SC, PingFang SC;font-weight:400;font-size:28rpx;color:#1F1F1F;opacity:0.7;margin-top:26rpx">长按图片识别二维码添加好友</text></view>

@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "van-swipe-cell": "../../wxcomponents/dist/swipe-cell/index",
+    "van-cell": "../../wxcomponents/dist/cell/index",
+    "van-cell-group": "../../wxcomponents/dist/cell-group/index",
+    "van-stepper": "../../wxcomponents/dist/stepper/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging"
+  }
+}

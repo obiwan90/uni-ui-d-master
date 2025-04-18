@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "custom-header": "../../components/custom-header/custom-header",
+    "uni-data-select": "../../uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging",
+    "qiao-select": "../../uni_modules/qiao-select/components/qiao-select/qiaoSelect"
+  }
+}

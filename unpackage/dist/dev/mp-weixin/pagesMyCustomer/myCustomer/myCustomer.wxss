@@ -1,0 +1,146 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-8cdff1ce {
+  box-sizing: border-box;
+}
+.myCustomer-layout.data-v-8cdff1ce {
+  width: 750rpx;
+  height: 100vh;
+  background: #f3f2f6;
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.myCustomer-layout .avter.data-v-8cdff1ce {
+  margin-top: 52rpx;
+  width: 710rpx;
+  height: 128rpx;
+  background: #ffffff;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  box-sizing: border-box;
+}
+.myCustomer-layout .avter text.data-v-8cdff1ce {
+  text-align: left;
+  height: 44rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+}
+.myCustomer-layout .avter image.data-v-8cdff1ce {
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 50%;
+}
+.myCustomer-layout .avter .avterBtn.data-v-8cdff1ce {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+}
+.myCustomer-layout .content.data-v-8cdff1ce {
+  width: 710rpx;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.myCustomer-layout .content .card.data-v-8cdff1ce {
+  margin-top: 20rpx;
+  width: 710rpx;
+  height: 100rpx;
+  background: #ffffff;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  padding-left: 24rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.myCustomer-layout .content .card .right.data-v-8cdff1ce {
+  width: 500rpx;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.myCustomer-layout .content .card .right .text-2.data-v-8cdff1ce {
+  width: 450rpx;
+  height: 40rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #1f1f1f;
+  opacity: 0.4;
+}
+.myCustomer-layout .content .card .right image.data-v-8cdff1ce {
+  height: 25rpx;
+  width: 25rpx;
+  margin-left: 10rpx;
+}
+.myCustomer-layout .content .card .text-1.data-v-8cdff1ce {
+  height: 44rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #1f1f1f;
+  text-align: left;
+}
+.myCustomer-layout .pannel-btn.data-v-8cdff1ce {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 750rpx;
+  height: 182rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.1);
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24rpx 30rpx 62rpx 30rpx;
+}
+.myCustomer-layout .pannel-btn .btn.data-v-8cdff1ce {
+  width: 690rpx;
+  height: 96rpx;
+  background: linear-gradient(135deg, #FF6D0C 0%, #EB4636 100%);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myCustomer-layout .pannel-btn .btn text.data-v-8cdff1ce {
+  height: 44rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #ffffff;
+}

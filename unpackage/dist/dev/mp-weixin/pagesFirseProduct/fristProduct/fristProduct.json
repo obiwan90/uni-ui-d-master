@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-header": "../../components/custom-header/custom-header",
+    "uv-tabs": "../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs",
+    "uv-sticky": "../../uni_modules/uv-sticky/components/uv-sticky/uv-sticky"
+  }
+}

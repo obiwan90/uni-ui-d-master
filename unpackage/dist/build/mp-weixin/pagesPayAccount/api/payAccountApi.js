@@ -1,0 +1,1 @@
+"use strict";const t=require("../../utils/customRequest.js");exports.apiAccountAdd=function(e){return t.customRequest("/Home/Users/yhkadd",e,"POST")},exports.apiAccountList=function(e){return t.customRequest("/Home/Users/yhklist",e,"POST")},exports.apiSearchBank=function(e){return t.customRequest("/Home/Users/bank",e,"POST")};

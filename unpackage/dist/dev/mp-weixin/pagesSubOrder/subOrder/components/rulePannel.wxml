@@ -1,0 +1,1 @@
+<view class="rule-pannel data-v-8abacb75"><view class="top data-v-8abacb75"><text class="data-v-8abacb75">运费规则</text><image class="data-v-8abacb75" src="https://www.xzxskj.com/xcximg/icon_close@3x.png" mode="aspectFill" bindtap="{{a}}"></image></view><text class="rule-pannel-text data-v-8abacb75">快递默认到付；送货上门3公里内免费配送，超出3公里买家承担运费；自提需提前联系商户</text></view>

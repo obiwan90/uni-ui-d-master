@@ -1,0 +1,1 @@
+"use strict";const e=require("../../utils/customRequest.js");exports.apiFinanceCheck=function(t){return e.customRequest("/Home/Orderxhhk/dz",t,"POST")},exports.getFinanceDetail=function(t){return e.customRequest("/Home/Orderxhhk/dzinfos",t,"POST")};

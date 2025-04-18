@@ -1,0 +1,1 @@
+"use strict";const e=require("../../utils/customRequest.js");exports.apiImeiTrackList=function(t){return e.customRequest("/Home/Chgz/index",t,"POST")},exports.apiImeiTrackSearch=function(t){return e.customRequest("/Home/Orderxhhk/chselects",t,"POST")};

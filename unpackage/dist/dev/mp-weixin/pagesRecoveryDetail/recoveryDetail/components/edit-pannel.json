@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-scroll-list": "../../../uni_modules/uv-scroll-list/components/uv-scroll-list/uv-scroll-list",
+    "uni-popup-dialog": "../../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

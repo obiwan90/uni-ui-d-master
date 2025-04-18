@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-uploader": "../../wxcomponents/dist/uploader/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "uv-upload": "../../uni_modules/uv-upload/components/uv-upload/uv-upload",
+    "uv-calendars": "../../uni_modules/uv-calendars/components/uv-calendars/uv-calendars",
+    "qiao-select": "../../uni_modules/qiao-select/components/qiao-select/qiaoSelect"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-swipe-cell": "../../wxcomponents/dist/swipe-cell/index",
+    "van-cell": "../../wxcomponents/dist/cell/index",
+    "van-cell-group": "../../wxcomponents/dist/cell-group/index",
+    "van-stepper": "../../wxcomponents/dist/stepper/index",
+    "van-image": "../../wxcomponents/dist/image/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "custom-channel-tap": "../../components/custom-channel-tap/custom-channel-tap",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging",
+    "custom-shop-tabbar": "../../components/custom-shop-tabbar/custom-shop-tabbar"
+  }
+}

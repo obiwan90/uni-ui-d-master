@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),r={__name:"QRCodeModal",props:{qrCodeUrl:{type:String,required:""}},setup:e=>(r,o)=>({a:e.qrCodeUrl})},o=e._export_sfc(r,[["__scopeId","data-v-14d3407d"]]);wx.createComponent(o);

@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "van-dropdown-menu": "../../wxcomponents/dist/dropdown-menu/index",
+    "van-dropdown-item": "../../wxcomponents/dist/dropdown-item/index",
+    "van-tag": "../../wxcomponents/dist/tag/index",
+    "van-button": "../../wxcomponents/dist/button/index",
+    "van-progress": "../../wxcomponents/dist/progress/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "uni-popup-dialog": "../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "warehouse-pannel": "./components/staffinfos-warehouse-pannel",
+    "staff-pannel": "./components/staffPannel",
+    "message-pannel": "./components/messagePannel"
+  }
+}

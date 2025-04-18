@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-uploader": "../../wxcomponents/dist/uploader/index",
+    "van-empty": "../../wxcomponents/dist/empty/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "uni-easyinput": "../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "uv-input": "../../uni_modules/uv-input/components/uv-input/uv-input",
+    "uv-upload": "../../uni_modules/uv-upload/components/uv-upload/uv-upload",
+    "uni-collapse-item": "../../uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item",
+    "uni-collapse": "../../uni_modules/uni-collapse/components/uni-collapse/uni-collapse",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "input-confirm": "./components/inputConfirm",
+    "qiao-select": "../../uni_modules/qiao-select/components/qiao-select/qiaoSelect",
+    "jixing-pannel": "./components/jixingPannel"
+  }
+}

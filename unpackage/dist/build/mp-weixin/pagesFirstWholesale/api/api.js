@@ -1,0 +1,1 @@
+"use strict";const e=require("../../utils/customRequest.js");exports.apiCustomerSearch=function(t){return e.customRequest("/Home/Customer/select",t,"POST")},exports.apiFinanceChCheck=function(t){return e.customRequest("/Home/Orderxhhk/chselect",t,"POST")},exports.apiFinancePlaceOrder=function(t,s){return e.customRequest(t,s,"POST")};

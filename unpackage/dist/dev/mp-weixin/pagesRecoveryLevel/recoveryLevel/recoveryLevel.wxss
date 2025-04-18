@@ -1,0 +1,150 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-c9ba42bf {
+  box-sizing: border-box;
+}
+.recoveryLevel-layout.data-v-c9ba42bf {
+  background: #F3F2F6;
+}
+.recoveryLevel-layout .header.data-v-c9ba42bf {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background: #F3F2F6;
+}
+.recoveryLevel-layout .header .titleBar.data-v-c9ba42bf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+}
+.recoveryLevel-layout .header .titleBar .bar-icon.data-v-c9ba42bf {
+  width: 20%;
+}
+.recoveryLevel-layout .header .titleBar .bar-icon .img.data-v-c9ba42bf {
+  height: 32rpx;
+  width: 32rpx;
+}
+.recoveryLevel-layout .header .titleBar .name.data-v-c9ba42bf {
+  width: 60%;
+  height: 56rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 800;
+  font-size: 40rpx;
+  color: #1F1F1F;
+  text-align: center;
+}
+.recoveryLevel-layout .header .titleBar .fill.data-v-c9ba42bf {
+  width: 20%;
+  height: 56rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 800;
+  font-size: 40rpx;
+  color: #1F1F1F;
+  text-align: center;
+  opacity: 0;
+}
+.recoveryLevel-layout .content.data-v-c9ba42bf {
+  margin-top: 40rpx;
+  width: 710rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  margin-left: 20rpx;
+  margin-bottom: 10rpx;
+}
+.recoveryLevel-layout .content .tabs.data-v-c9ba42bf {
+  border-radius: 20rpx 20rpx 0 0;
+  background: #FFFFFF;
+  border-bottom: 1rpx solid #EEEEEE;
+  margin-bottom: 30rpx;
+}
+.recoveryLevel-layout .rule.data-v-c9ba42bf {
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recoveryLevel-layout .rule .title.data-v-c9ba42bf {
+  width: 670rpx;
+  height: 66rpx;
+  background: #FF6D0C;
+  border-radius: 20rpx 20rpx 0rpx 0rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recoveryLevel-layout .rule .title text.data-v-c9ba42bf {
+  font-family: PingFang SC, PingFang SC;
+  font-weight: bold;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  text-align: center;
+}
+.recoveryLevel-layout .rule .content-grid.data-v-c9ba42bf {
+  width: 670rpx;
+}
+.recoveryLevel-layout .rule .content-grid .content-row.data-v-c9ba42bf {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 2rpx;
+  margin-top: 2rpx;
+}
+.recoveryLevel-layout .rule .content-grid .content-row .col1.data-v-c9ba42bf {
+  width: 192rpx;
+  height: 128rpx;
+  background: #FFF6EB;
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recoveryLevel-layout .rule .content-grid .content-row .col1 text.data-v-c9ba42bf {
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #1F1F1F;
+  text-align: center;
+}
+.recoveryLevel-layout .rule .content-grid .content-row .col2.data-v-c9ba42bf {
+  width: 476rpx;
+  height: 128rpx;
+  background: #F9F9F9;
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recoveryLevel-layout .rule .content-grid .content-row .col2 text.data-v-c9ba42bf {
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #1F1F1F;
+  text-align: center;
+}

@@ -1,0 +1,1 @@
+<view class="box-tab data-v-a9bf863a" style="{{'background:' + g}}"><view wx:if="{{a}}" class="col1 data-v-a9bf863a"><text class="text1Class data-v-a9bf863a" style="{{'color:' + c}}">{{b}}</text></view><view wx:if="{{d}}" class="col2 data-v-a9bf863a"><text class="text2Class data-v-a9bf863a" style="{{'color:' + f}}">{{e}}</text></view></view>

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-header": "../../components/custom-header/custom-header",
+    "uv-count-down": "../../uni_modules/uv-count-down/components/uv-count-down/uv-count-down",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging"
+  }
+}

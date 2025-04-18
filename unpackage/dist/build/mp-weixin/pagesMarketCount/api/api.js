@@ -1,0 +1,1 @@
+"use strict";const e=require("../../utils/customRequest.js");exports.apiDelMine=function(t){return e.customRequest("/Home/Freerelease/dels",t,"POST")},exports.apigetMarketListAll=function(t){return e.customRequest("/Home/Freerelease/listsall",t,"POST")};

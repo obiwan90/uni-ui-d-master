@@ -1,0 +1,296 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-ad48c944 {
+  box-sizing: border-box;
+}
+.movingInventory-layout.data-v-ad48c944 {
+  min-height: 100vh;
+  background: #f3f2f6;
+}
+.search-fill.data-v-ad48c944 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search.data-v-ad48c944 {
+  background: #f3f2f6;
+  margin-bottom: 32rpx;
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72rpx;
+  width: 750rpx;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+.search .searchBar.data-v-ad48c944 {
+  padding-left: 10rpx;
+  width: 710rpx;
+  height: 72rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(59, 43, 15, 0.05);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  border: 2rpx solid #242424;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search .searchBar .position.data-v-ad48c944 {
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search .searchBar .position .position-text.data-v-ad48c944 {
+  height: 44rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #1f1f1f;
+}
+.search .searchBar .position .position-image.data-v-ad48c944 {
+  margin-left: 10rpx;
+  width: 20rpx;
+  height: 20rpx;
+}
+.search .searchBar .right.data-v-ad48c944 {
+  display: flex;
+  align-items: center;
+}
+.search .searchBar .right .inline.data-v-ad48c944 {
+  margin-right: 30rpx;
+  width: 2rpx;
+  height: 28rpx;
+  background: #eeeeee;
+  border-radius: 10rpx 10rpx 10rpx 10rpx;
+}
+.search .searchBar .right image.data-v-ad48c944 {
+  margin-right: 30rpx;
+  height: 30rpx;
+  width: 30rpx;
+}
+.search .searchBar .search-content.data-v-ad48c944 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20rpx;
+  flex: 1;
+}
+.search .searchBar .search-content .search-image.data-v-ad48c944 {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 15rpx;
+}
+.search .searchBar .search-content .selectDownUp.data-v-ad48c944 {
+  width: 100%;
+}
+.search .searchBar .search-content .search-content-text.data-v-ad48c944 {
+  width: 400rpx;
+  height: 36rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 26rpx;
+  color: #1f1f1f;
+  text-align: left;
+  opacity: 0.6;
+}
+.search .select-btn.data-v-ad48c944 {
+  width: 72rpx;
+  height: 72rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.05), inset 0rpx 0rpx 12rpx 2rpx rgba(255, 255, 255, 0.16);
+  border-radius: 10rpx 10rpx 10rpx 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search .select-btn image.data-v-ad48c944 {
+  height: 36rpx;
+  width: 32rpx;
+}
+.tag-class.data-v-ad48c944 .van-tag {
+  border-radius: 8rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 22rpx;
+  padding-left: 8rpx;
+  padding-right: 8rpx;
+}
+.bottom-btn.data-v-ad48c944 {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 750rpx;
+  height: 334rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.1);
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-top: 40rpx;
+}
+.bottom-btn .top.data-v-ad48c944 {
+  display: flex;
+  align-items: center;
+}
+.bottom-btn .top .left.data-v-ad48c944 {
+  display: flex;
+  align-items: center;
+}
+.bottom-btn .top .left .text-1.data-v-ad48c944 {
+  margin-right: 40rpx;
+  display: flex;
+  align-items: center;
+}
+.bottom-btn .top .left .text-1 .text-class-1.data-v-ad48c944 {
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #1f1f1f;
+  text-align: left;
+}
+.bottom-btn .top .left .text-1 .text-class-2.data-v-ad48c944 {
+  font-family: PingFang SC, PingFang SC;
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #eb4636;
+  text-align: left;
+}
+.bottom-btn .top .right.data-v-ad48c944 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.bottom-btn .top .right text.data-v-ad48c944 {
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #1f1f1f;
+  text-align: left;
+  margin-left: 10rpx;
+}
+.bottom-btn .content.data-v-ad48c944 {
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-btn .content .center-btn.data-v-ad48c944 {
+  width: 710rpx;
+  height: 96rpx;
+  background: linear-gradient(135deg, #ff6d0c 0%, #eb4636 100%);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-btn .content .center-btn text.data-v-ad48c944 {
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #ffffff;
+  text-align: center;
+}
+.bottom-btn .content .left-btn.data-v-ad48c944 {
+  width: 202rpx;
+  height: 96rpx;
+  background: #f2f3f6;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #1f1f1f;
+  text-align: center;
+}
+.bottom-btn .content .right-btn.data-v-ad48c944 {
+  width: 690rpx;
+  height: 96rpx;
+  background: linear-gradient(135deg, #ff6d0c 0%, #eb4636 100%);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #ffffff;
+  text-align: center;
+}
+.bottom-btn .content .center-btn.data-v-ad48c944 {
+  width: 710rpx;
+  height: 96rpx;
+  background: #f2f3f6;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #1f1f1f;
+  text-align: center;
+}
+.van-swipe-cell__right.data-v-ad48c944 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 41px;
+}
+.van-swipe-cell__right .left.data-v-ad48c944 {
+  height: 100%;
+  width: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #ff6d0c 0%, #eb4636 100%);
+  border-radius: 0 20rpx 20rpx 0;
+}
+.van-swipe-cell__right .left text.data-v-ad48c944 {
+  width: 56rpx;
+  height: 40rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #ffffff;
+  text-align: center;
+}
+.workerInput.data-v-ad48c944 {
+  font-family: PingFang SC, PingFang SC;
+  font-weight: bold;
+  font-size: 30rpx;
+  color: #1f1f1f;
+  text-align: right;
+  margin-right: 10rpx;
+}

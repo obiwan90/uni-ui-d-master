@@ -1,0 +1,1 @@
+"use strict";var e,o;const r=require("../../../../common/vendor.js"),t={props:{title:{type:String,default:""},border:{type:Boolean,default:!0},...null==(o=null==(e=r.index.$uv)?void 0:e.props)?void 0:o.cellGroup}};exports.props=t;

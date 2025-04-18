@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-tabbar": "../../components/custom-tabbar/custom-tabbar",
+    "classify": "../../pagesClassify/classify/classify",
+    "mine": "../../pages/mine/mine"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-datetime-picker": "../../../uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
+    "uv-transition": "../../../uni_modules/uv-transition/components/uv-transition/uv-transition"
+  }
+}

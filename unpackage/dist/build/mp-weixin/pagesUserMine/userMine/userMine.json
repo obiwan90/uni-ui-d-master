@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "disableSwipeBack": true,
+  "usingComponents": {
+    "uni-badge": "../../uni_modules/uni-badge/components/uni-badge/uni-badge",
+    "identity-pannel": "../../components/identity-pannel/identity-pannel",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "custom-tabbar": "../../components/custom-tabbar/custom-tabbar"
+  }
+}

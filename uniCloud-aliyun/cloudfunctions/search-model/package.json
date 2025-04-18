@@ -1,0 +1,7 @@
+{
+  "name": "search-model",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

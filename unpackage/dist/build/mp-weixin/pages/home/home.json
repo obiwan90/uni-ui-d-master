@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-navi-bar": "../../components/custom-navi-bar/custom-navi-bar",
+    "custom-product-card": "../../components/custom-product-card/custom-product-card",
+    "custom-tabbar": "../../components/custom-tabbar/custom-tabbar",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "q-r-code-modal": "../../components/QRCodeModal/QRCodeModal"
+  }
+}

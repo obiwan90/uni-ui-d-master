@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-uploader": "../../wxcomponents/dist/uploader/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "uv-count-down": "../../uni_modules/uv-count-down/components/uv-count-down/uv-count-down"
+  }
+}

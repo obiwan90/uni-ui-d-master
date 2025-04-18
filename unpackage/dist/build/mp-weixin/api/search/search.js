@@ -1,0 +1,1 @@
+"use strict";const e=require("../../utils/customRequest.js");exports.apiSearchGoods=function(t){return e.customRequest("/Home/Search/indexs",t,"POST")},exports.apiSearchModel=function(t){return e.customRequest("/Home/Search/index",t,"POST")};

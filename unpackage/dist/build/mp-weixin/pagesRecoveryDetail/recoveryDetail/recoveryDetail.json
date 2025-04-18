@@ -1,0 +1,23 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "van-swipe-cell": "../../wxcomponents/dist/swipe-cell/index",
+    "van-cell": "../../wxcomponents/dist/cell/index",
+    "van-cell-group": "../../wxcomponents/dist/cell-group/index",
+    "van-stepper": "../../wxcomponents/dist/stepper/index",
+    "uv-alert": "../../uni_modules/uv-alert/components/uv-alert/uv-alert",
+    "uv-scroll-list": "../../uni_modules/uv-scroll-list/components/uv-scroll-list/uv-scroll-list",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "edit-pannel": "./components/edit-pannel",
+    "tips-pannel": "./components/tips-pannel",
+    "log-pannel": "./components/log-pannel",
+    "batch-pannel": "./components/batch-pannel",
+    "tap-edit-pannel": "./components/tap-edit",
+    "service-pannel": "./components/service-pannel",
+    "join-us-pannel": "./components/joinUs-pannel"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "qiao-select": "../../uni_modules/qiao-select/components/qiao-select/qiaoSelect"
+  }
+}

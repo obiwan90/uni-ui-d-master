@@ -1,0 +1,1 @@
+"use strict";const e=require("../../../common/vendor.js"),o={__name:"service-pannel",setup:o=>(o,c)=>({a:e.o((e=>o.$emit("close"))),b:e.o((e=>o.$emit("close")))})},c=e._export_sfc(o,[["__scopeId","data-v-6290f6ce"]]);wx.createComponent(c);

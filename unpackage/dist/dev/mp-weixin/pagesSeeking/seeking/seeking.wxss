@@ -1,0 +1,325 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.seeking.data-v-36011c2e {
+  height: 100vh;
+  width: 750rpx;
+  background: linear-gradient(180deg, #F3F2F6 0%, #FFFFFF 100%);
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seeking .card.data-v-36011c2e {
+  margin-top: 45rpx;
+  box-sizing: border-box;
+  width: 710rpx;
+  height: 590rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.05);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20rpx;
+  padding-top: 24rpx;
+  padding-bottom: 30rpx;
+}
+.seeking .card .title.data-v-36011c2e {
+  margin-bottom: 58rpx;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.seeking .card .title .left.data-v-36011c2e {
+  display: flex;
+  align-items: center;
+}
+.seeking .card .title .left image.data-v-36011c2e {
+  height: 80rpx;
+  width: 80rpx;
+  margin-right: 20rpx;
+}
+.seeking .card .title .left text.data-v-36011c2e {
+  height: 44rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #1F1F1F;
+}
+.seeking .card .title .right.data-v-36011c2e {
+  width: 326rpx;
+  height: 56rpx;
+  background: linear-gradient(134deg, #ED784B 0%, #EB4636 100%);
+  border-radius: 28rpx 0rpx 0rpx 28rpx;
+  display: flex;
+}
+.seeking .card .title .right .tip.data-v-36011c2e {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-right: 20rpx;
+  margin-left: 24rpx;
+}
+.seeking .card .title .right .tip text.data-v-36011c2e {
+  height: 42rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 30rpx;
+  color: #FFFFFF;
+}
+.seeking .card .info text.data-v-36011c2e {
+  height: 110rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: bold;
+  font-size: 36rpx;
+  color: #1F1F1F;
+}
+.seeking .card .price.data-v-36011c2e {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30rpx;
+}
+.seeking .card .price .left .text-1.data-v-36011c2e {
+  height: 34rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #1F1F1F;
+}
+.seeking .card .price .left .text-2.data-v-36011c2e {
+  height: 48rpx;
+  font-family: DIN, DIN;
+  font-weight: bold;
+  font-size: 40rpx;
+  color: #E6432E;
+}
+.seeking .card .price .left .text-3.data-v-36011c2e {
+  height: 34rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #1F1F1F;
+}
+.seeking .card .price .right.data-v-36011c2e {
+  margin-right: 20rpx;
+}
+.seeking .card .price .right text.data-v-36011c2e {
+  height: 32rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: bold;
+  font-size: 22rpx;
+  color: #1F1F1F;
+}
+.seeking .card .photot-cell.data-v-36011c2e {
+  margin-top: 30rpx;
+  width: 100%;
+  height: 196rpx;
+  display: flex;
+}
+.seeking .card .photot-cell scroll-view.data-v-36011c2e {
+  white-space: nowrap;
+}
+.seeking .card .photot-cell scroll-view .scroll.data-v-36011c2e {
+  display: flex;
+}
+.seeking .card .photot-cell scroll-view .scroll .photo.data-v-36011c2e {
+  margin-right: 12rpx;
+}
+.seeking .card .photot-cell scroll-view .scroll .photo image.data-v-36011c2e {
+  height: 198rpx;
+  width: 198rpx;
+}
+.seeking .bar.data-v-36011c2e {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 750rpx;
+  height: 182rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.1);
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-top: 24rpx;
+  padding-bottom: 62rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seeking .bar .btn.data-v-36011c2e {
+  width: 690rpx;
+  height: 96rpx;
+  background: linear-gradient(135deg, #ED784B 0%, #EB4636 100%);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seeking .bar .btn text.data-v-36011c2e {
+  height: 42rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 30rpx;
+  color: #FFFFFF;
+}
+.seeking .position.data-v-36011c2e {
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  width: 708rpx;
+  height: 96rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.05);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+}
+.seeking .position .left.data-v-36011c2e {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seeking .position .left image.data-v-36011c2e {
+  height: 36rpx;
+  width: 36rpx;
+  margin-right: 12rpx;
+}
+.seeking .position .left text.data-v-36011c2e {
+  height: 42rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 30rpx;
+  color: #1F1F1F;
+}
+.seeking .position .right image.data-v-36011c2e {
+  height: 32rpx;
+  width: 32rpx;
+}
+.seeking .product-info.data-v-36011c2e {
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  width: 710rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.05);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.seeking .product-info .title.data-v-36011c2e {
+  border-bottom: 2rpx solid #EEEEEE;
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+}
+.seeking .product-info .title text.data-v-36011c2e {
+  height: 40rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: bold;
+  font-size: 28rpx;
+  color: #1F1F1F;
+}
+.seeking .product-info .title .tip.data-v-36011c2e {
+  width: 118rpx;
+  height: 38rpx;
+  background: linear-gradient(132deg, #FFA187 0%, #FFD3B5 100%);
+  border-radius: 4rpx 4rpx 4rpx 4rpx;
+  opacity: 0.45;
+  margin-left: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.seeking .product-info .title .tip text.data-v-36011c2e {
+  height: 32rpx;
+  font-family: YouSheBiaoTiHei, YouSheBiaoTiHei;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #EB4636;
+}
+.seeking .product-info .content.data-v-36011c2e {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24rpx;
+}
+.seeking .product-info .content .info.data-v-36011c2e {
+  box-sizing: border-box;
+  width: 670rpx;
+  height: 72rpx;
+  background: #F8F8F8;
+  border-radius: 10rpx 10rpx 10rpx 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  margin-bottom: 12rpx;
+}
+.seeking .product-info .content .info .left text.data-v-36011c2e {
+  height: 40rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #1F1F1F;
+}
+.seeking .product-info .content .info .right text.data-v-36011c2e {
+  height: 40rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #1F1F1F;
+}
+.seeking .product-info .content .info1.data-v-36011c2e {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 670rpx;
+  background: #F8F8F8;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-top: 24rpx;
+  padding-bottom: 24rpx;
+  box-sizing: border-box;
+  margin-bottom: 20rpx;
+}
+.seeking .product-info .content .info1 text.data-v-36011c2e {
+  height: 152rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #1F1F1F;
+  line-height: 56rpx;
+}

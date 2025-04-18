@@ -1,0 +1,1 @@
+<view class="layout pageBg data-v-bb93a705"><image class="login data-v-bb93a705" src="https://www.xzxskj.com/xcximg/logo.png" mode="aspectFit"></image><view class="btn data-v-bb93a705"><text class="data-v-bb93a705">手机号快捷登录</text><button class="phoneBtn data-v-bb93a705" open-type="getPhoneNumber" bindgetphonenumber="{{a}}" plain>获取手机号</button></view></view>

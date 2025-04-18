@@ -1,0 +1,1 @@
+"use strict";const t=require("../../utils/customRequest.js");exports.apiApproval=function(e){return t.customRequest("/Home/Order/cztk",e,"POST")},exports.apiGetApprovalList=function(e){return t.customRequest("/Home/Order/cwtkczlist",e,"POST")};

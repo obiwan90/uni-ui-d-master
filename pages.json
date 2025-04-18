@@ -1,0 +1,1216 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "uni-app",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/market/market",
+		// 	"style": {
+		// 		"navigationBarTitleText": "",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/message/message",
+		// 	"style": {
+		// 		"navigationBarTitleText": "‘消息",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom",
+		// 		"usingComponents": {
+		// 		  "van-overlay": "/wxcomponents/dist/overlay/index"
+		// 		}
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/mine/mine",
+		// 	"style": {
+		// 		"navigationBarTitleText": "我的",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom",
+		// 		"disableScroll": true
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/listCard/listCard",
+		// 	"style": {
+		// 		"navigationBarTitleText": "",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom",
+		// 		"usingComponents": {
+		// 		  "van-overlay": "/wxcomponents/dist/overlay/index",
+		// 		  "van-tag": "/wxcomponents/dist/tag/index"
+		// 		}
+		// 	}
+		// },
+		{
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "闲置新生-二手批发平台",
+		"navigationBarBackgroundColor": "#F3F3F6",
+		"backgroundColor": "#F3F3F6",
+		"navigationStyle": "custom",
+		"usingComponents": {
+			"van-uploader": "/wxcomponents/dist/uploader/index",
+			"van-image": "/wxcomponents/dist/image/index",
+			"van-stepper": "/wxcomponents/dist/stepper/index",
+			"van-tag": "/wxcomponents/dist/tag/index",
+			"van-loading": "/wxcomponents/dist/loading/index"
+		}
+	},
+	// "tabBar": {
+	// 	"custom": true,
+	// 	"color": "#A4A3A5",
+	// 	"selectedColor": "#1F1F1F",
+	// 	"borderStyle": "white",
+	// 	"backgroundColor": "#FFFFFF",
+	// 	"list": [{
+	// 		"text": "首页",
+	// 		"pagePath": "pages/index/index",
+	// 		"iconPath": "static/images/tabBar/icon_home_nor@3x.png",
+	// 		"selectedIconPath": "static/images/tabBar/icon_home_sel@3x.png"
+	// 	}, {
+	// 		"text": "自由市场",
+	// 		"pagePath": "pages/market/market",
+	// 		"iconPath": "static/images/tabBar/icon_shichang_nor@3x.png",
+	// 		"selectedIconPath": "static/images/tabBar/icon_shichang_sel@3x.png"
+	// 	}, {
+	// 		"text": "消息",
+	// 		"pagePath": "pages/message/message",
+	// 		"iconPath": "static/images/tabBar/icon_xiaoxi_nor@3x.png",
+	// 		"selectedIconPath": "static/images/tabBar/icon_xiaoxi_sel@3x.png"
+	// 	}, 
+	// 	{
+	// 		"text": "保修查询",
+	// 		"pagePath": "pages/maintenance/maintenance",
+	// 		"iconPath": "static/images/tabBar/icon_baoxiu@3x.png",
+	// 		"selectedIconPath": "static/images/tabBar/icon_baoxiu_sel@3x.png"
+	// 	}, 
+	// 	{
+	// 		"text": "我的",
+	// 		"pagePath": "pages/mine/mine",
+	// 		"iconPath": "static/images/tabBar/icon_info_nor@3x.png",
+	// 		"selectedIconPath": "static/images/tabBar/icon_info_sel@3x.png"
+	// 	}]
+	// },
+
+	"subPackages": [{
+			"root": "pagesClassify",
+			"pages": [{
+				"path": "classify/classify",
+				"style": {
+					"navigationBarTitleText": "分类",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-image": "/wxcomponents/dist/image/index"
+					  
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesProduct",
+			"pages": [{
+				"path": "product/product",
+				"style": {
+					"navigationBarTitleText": "商品列表",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-image": "/wxcomponents/dist/image/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesShop",
+			"pages": [{
+				"path": "index/index",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesShopCar",
+			"pages": [{
+				"path": "shopCar/shopCar",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					// "disableScroll": true,
+					"usingComponents": {
+					    "van-swipe-cell": "/wxcomponents/dist/swipe-cell/index",
+						"van-cell": "/wxcomponents/dist/cell/index",
+						"van-cell-group": "/wxcomponents/dist/cell-group/index",
+						"van-stepper": "/wxcomponents/dist/stepper/index",
+						"van-image": "/wxcomponents/dist/image/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesSearch",
+			"pages": [{
+				"path": "search/search",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesMaintenance",
+			"pages": [{
+				"path": "maintenance/maintenance",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesLogin",
+			"pages": [{
+				"path": "login/login",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesProductDetail",
+			"pages": [{
+				"path": "productDetail/productDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesSubOrder",
+			"pages": [{
+				"path": "subOrder/subOrder",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					   "van-tag": "/wxcomponents/dist/tag/index"
+					}
+				}
+				
+			}]
+		},
+		{
+			"root": "pagesPaySuccess",
+			"pages": [{
+				"path": "paySuccess/paySuccess",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesRecovery",
+			"pages": [{
+				"path": "recovery/recovery",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesMarket",
+			"pages": [{
+				"path": "market/market",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesSeeking",
+			"pages": [{
+				"path": "seeking/seeking",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesSell",
+			"pages": [{
+				"path": "sell/sell",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesNewSell",
+			"pages": [{
+				"path": "newSell/newSell",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesNewSeeking",
+			"pages": [{
+				"path": "newSeeking/newSeeking",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesNewPosting",
+			"pages": [{
+				"path": "newPosting/newPosting",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesAddress",
+			"pages": [{
+				"path": "address/address",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesAddAddress",
+			"pages": [{
+				"path": "addAddress/addAddress",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesCustomMine",
+			"pages": [{
+				"path": "customMine/customMine",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"disableSwipeBack": true,
+					"app-plus": {
+	 　　　　　　　　　　 "popGesture": "none"
+	 　　　　　　　　	}
+				}
+			}]
+		},
+		{
+			"root": "pagesUserMine",
+			"pages": [{
+				"path": "userMine/userMine",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"disableSwipeBack": true,
+					"app-plus": {
+	　　　　　　　　　　 "popGesture": "none"
+	　　　　　　　　	}
+				}
+			}]
+		},
+		{
+			"root": "pagesMenber",
+			"pages": [{
+				"path": "menber/menber",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesOrder",
+			"pages": [{
+				"path": "order/order",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesOrderDetail",
+			"pages": [{
+				"path": "orderDetail/orderDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesFirseProduct",
+			"pages": [{
+				"path": "fristProduct/fristProduct",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesAccount",
+			"pages": [{
+				"path": "account/account",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesMarketCount",
+			"pages": [{
+				"path": "marketCount/marketCount",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesFineness",
+			"pages": [{
+				"path": "fineness/fineness",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesFinenessDetail",
+			"pages": [{
+				"path": "finenessDetail/finenessDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}]
+		},
+		{
+			"root": "pagesFinenessJudge",
+			"pages": [{
+				"path": "finenessJudge/finenessJudge",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				},
+				"usingComponents": {
+				  "van-empty": "/wxcomponents/dist/empty/index"
+				}
+			}]
+		},
+		{
+			"root": "pagesSuggest",
+			"pages": [{
+				"path": "suggest/suggest",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesProductInput",
+			"pages": [{
+				"path": "productInput/productInput",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index",
+					   "van-empty": "/wxcomponents/dist/empty/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesFuncCheck",
+			"pages": [{
+				"path": "funcCheck/funcCheck",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index",
+					   "van-empty": "/wxcomponents/dist/empty/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesMaintenanceInput",
+			"pages": [{
+				"path": "maintenanceInput/maintenanceInput",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index",
+					    "van-empty": "/wxcomponents/dist/empty/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesYjOrderDetail",
+			"pages": [{
+				"path": "yjOrderDetail/yjOrderDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesShOrderDetail",
+			"pages": [{
+				"path": "shOrderDetail/shOrderDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesCustomFristProductAfterSales",
+			"pages": [{
+				"path": "customFristProductAfterSalse/customFristProductAfterSalse",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesCustomOrder",
+			"pages": [{
+				"path": "customOrder/customOrder",
+				"style": {
+					
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"disableSwipeBack": true,
+					
+					// "navigationBarTitleText": "",
+					// "enablePullDownRefresh": false,
+					// "navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index",
+					  "van-tag": "/wxcomponents/dist/tag/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesCustomSellOrderDetail",
+			"pages": [{
+				"path": "customSellOrderDetail/customSellOrderDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesCustomServiceOrderDetail",
+			"pages": [{
+				"path": "customServiceOrderDetail/customServiceOrderDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesCustomYjOrderDetail",
+			"pages": [{
+				"path": "customYjOrderDetail/customYjOrderDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesServiceOrderDetail",
+			"pages": [{
+				"path": "serviceOrderDetail/serviceOrderDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"usingComponents": {
+					  "van-uploader": "/wxcomponents/dist/uploader/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesQualityControl",
+			"pages": [{
+				"path": "qualityControl/qualityControl",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					   "van-overlay": "/wxcomponents/dist/overlay/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesFinance",
+			"pages": [{
+				"path": "finance/finance",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesRecoveryDetail",
+			"pages": [{
+				"path": "recoveryDetail/recoveryDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					    "van-swipe-cell": "/wxcomponents/dist/swipe-cell/index",
+						"van-cell": "/wxcomponents/dist/cell/index",
+						"van-cell-group": "/wxcomponents/dist/cell-group/index",
+						"van-stepper": "/wxcomponents/dist/stepper/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesEditLog",
+			"pages": [{
+				"path": "editLog/editLog",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesTakePhoto",
+			"pages": [{
+				"path": "takePhoto/takePhoto",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				},
+				"usingComponents": {
+				    "van-empty": "/wxcomponents/dist/empty/index"
+				}
+			}]
+		},
+		{
+			"root": "pagesListingProduct",
+			"pages": [{
+				"path": "listingProduct/listingProduct",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				},
+				"usingComponents": {
+				  "van-uploader": "/wxcomponents/dist/uploader/index"
+				}
+			}]
+		},
+		{
+			"root": "pagesInventoryManager",
+			"pages": [{
+				"path": "inventoryManager/inventoryManager",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-dropdown-menu": "/wxcomponents/dist/dropdown-menu/index",
+					  "van-dropdown-item": "/wxcomponents/dist/dropdown-item/index",
+					  "van-tag": "/wxcomponents/dist/tag/index"
+					}
+
+				}
+			}]
+		},
+		{
+			"root": "pagesFirstWholesale",
+			"pages": [{
+				"path": "firstWholeSale/firstWholeSale",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-tag": "/wxcomponents/dist/tag/index",
+					  "van-swipe-cell": "/wxcomponents/dist/swipe-cell/index",
+					  "van-cell": "/wxcomponents/dist/cell/index",
+					  "van-cell-group": "/wxcomponents/dist/cell-group/index"  
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesImeiTrack",
+			"pages": [{
+				"path": "ImeiTrack/imeiTrack",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-tag": "/wxcomponents/dist/tag/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesDataCenter",
+			"pages": [{
+				"path": "dataCenter/dataCenter",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-dropdown-menu": "/wxcomponents/dist/dropdown-menu/index",
+					  "van-dropdown-item": "/wxcomponents/dist/dropdown-item/index",
+					  "van-tag": "/wxcomponents/dist/tag/index",
+					  "van-button": "/wxcomponents/dist/button/index",
+					  "van-progress": "/wxcomponents/dist/progress/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesCustomManager",
+			"pages": [{
+				"path": "customManager/customManager",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesMyCustomer",
+			"pages": [{
+				"path": "myCustomer/myCustomer",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesDataCenterDetail",
+			"pages": [{
+				"path": "dataCenterDetail/dataCenterDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-dropdown-menu": "/wxcomponents/dist/dropdown-menu/index",
+					  "van-dropdown-item": "/wxcomponents/dist/dropdown-item/index",
+					  "van-tag": "/wxcomponents/dist/tag/index",
+					  "van-button": "/wxcomponents/dist/button/index",
+					  "van-progress": "/wxcomponents/dist/progress/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesDataCenterProductData",
+			"pages": [{
+				"path": "dataCenterProductData/dataCenterProductData",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-dropdown-menu": "/wxcomponents/dist/dropdown-menu/index",
+					  "van-dropdown-item": "/wxcomponents/dist/dropdown-item/index",
+					  "van-tag": "/wxcomponents/dist/tag/index",
+					  "van-button": "/wxcomponents/dist/button/index",
+					  "van-progress": "/wxcomponents/dist/progress/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesDataCenterProductList",
+			"pages": [{
+				"path": "dataCenterProductList/dataCenterProductList",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-dropdown-menu": "/wxcomponents/dist/dropdown-menu/index",
+					  "van-dropdown-item": "/wxcomponents/dist/dropdown-item/index",
+					  "van-tag": "/wxcomponents/dist/tag/index",
+					  "van-button": "/wxcomponents/dist/button/index",
+					  "van-progress": "/wxcomponents/dist/progress/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesFinanceDetail",
+			"pages": [{
+				"path": "financeDetail/financeDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-dropdown-menu": "/wxcomponents/dist/dropdown-menu/index",
+					  "van-dropdown-item": "/wxcomponents/dist/dropdown-item/index",
+					  "van-tag": "/wxcomponents/dist/tag/index",
+					  "van-button": "/wxcomponents/dist/button/index",
+					  "van-progress": "/wxcomponents/dist/progress/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesStaffManager",
+			"pages": [{
+				"path": "staffManager/staffManager",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-dropdown-menu": "/wxcomponents/dist/dropdown-menu/index",
+					  "van-dropdown-item": "/wxcomponents/dist/dropdown-item/index",
+					  "van-tag": "/wxcomponents/dist/tag/index",
+					  "van-button": "/wxcomponents/dist/button/index",
+					  "van-progress": "/wxcomponents/dist/progress/index",
+					  "van-swipe-cell": "/wxcomponents/dist/swipe-cell/index",
+					  "van-cell": "/wxcomponents/dist/cell/index",
+					  "van-cell-group": "/wxcomponents/dist/cell-group/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesAuthority",
+			"pages": [{
+				"path": "authority/authority",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-dropdown-menu": "/wxcomponents/dist/dropdown-menu/index",
+					  "van-dropdown-item": "/wxcomponents/dist/dropdown-item/index",
+					  "van-tag": "/wxcomponents/dist/tag/index",
+					  "van-button": "/wxcomponents/dist/button/index",
+					  "van-progress": "/wxcomponents/dist/progress/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesStaffInfos",
+			"pages": [{
+				"path": "staffInfos/staffInfos",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					  "van-dropdown-menu": "/wxcomponents/dist/dropdown-menu/index",
+					  "van-dropdown-item": "/wxcomponents/dist/dropdown-item/index",
+					  "van-tag": "/wxcomponents/dist/tag/index",
+					  "van-button": "/wxcomponents/dist/button/index",
+					  "van-progress": "/wxcomponents/dist/progress/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesFinenessLevel",
+			"pages": [{
+				"path": "finenessLevel/pagesFinenessLevel",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesRecoveryLevel",
+			"pages": [{
+				"path": "recoveryLevel/recoveryLevel",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesOneClickUpload",
+			"pages": [{
+				"path": "oneClickUpload/oneClickUpload",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesProcurementDescription",
+			"pages": [{
+				"path": "procurementDescription/procurementDescription",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesAdmin",
+			"pages": [{
+				"path": "admin/admin",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesPayAccount",
+			"pages": [{
+				"path": "payAccount/payAccount",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesAftersalesRules",
+			"pages": [{
+				"path": "aftersalesRules/aftersalesRules",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesWarehouseManagement",
+			"pages": [{
+				"path": "warehouseManagement/warehouseManagement",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					    "van-swipe-cell": "/wxcomponents/dist/swipe-cell/index",
+						"van-cell": "/wxcomponents/dist/cell/index",
+						"van-cell-group": "/wxcomponents/dist/cell-group/index",
+						"van-stepper": "/wxcomponents/dist/stepper/index"
+					}
+				}
+			},
+			{
+				"path": "warehouseManagement/new",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesMovingInventory",
+			"pages": [{
+				"path": "movingInventory/movingInventory",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					    "van-swipe-cell": "/wxcomponents/dist/swipe-cell/index",
+						"van-cell": "/wxcomponents/dist/cell/index",
+						"van-cell-group": "/wxcomponents/dist/cell-group/index",
+						"van-stepper": "/wxcomponents/dist/stepper/index"
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesShippingAddress",
+			"pages": [{
+				"path": "shippingAddress/shippingAddress",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			},
+			{
+				"path": "shippingAddress/new",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true
+				}
+			}]
+		},
+		{
+			"root": "pagesWithdrawal",
+			"pages": [{
+				"path": "withdrawal/withdrawal",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					   
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesApproval",
+			"pages": [{
+				"path": "approval/approval",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					   
+					}
+				}
+			}]
+		},
+		{
+			"root": "pagesQualityReport",
+			"pages": [{
+				"path": "qualityReport/qualityReport",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom",
+					"disableScroll": true,
+					"usingComponents": {
+					   
+					}
+				}
+			}]
+		}
+		// {
+		// 	"root": "pagesServiceOrderDetail",
+		// 	"pages": [{
+		// 		"path": "serviceOrderDetail/serviceOrderDetail",
+		// 		"style": {
+		// 			"navigationBarTitleText": "",
+		// 			"enablePullDownRefresh": false,
+		// 			"navigationStyle": "custom",
+		// 			"disableScroll": true,
+		// 			"usingComponents": {
+		// 			  // "van-dropdown-menu": "/wxcomponents/dist/dropdown-menu/index",
+		// 			  // "van-dropdown-item": "/wxcomponents/dist/dropdown-item/index",
+		// 			  // "van-tag": "/wxcomponents/dist/tag/index",
+		// 			  // "van-button": "/wxcomponents/dist/button/index",
+		// 			  // "van-progress": "/wxcomponents/dist/progress/index"
+		// 			}
+		// 		}
+		// 	}]
+		// }
+	],
+	// 分包预载配置
+	"preloadRule": {
+		// 当我们进入了pages/index/index页面以后就会预下载pages/subPack分包
+		"pages/home/home": {
+			"network": "all", //在指定网络下预下载，可选值为：all（不限网络）、wifi（仅wifi下预下载）
+			"packages": ["pagesClassify","pagesUserMine","pagesCustomMine"] //进入页面后预下载分包
+		}
+	},
+
+	"uniIdRouter": {}
+}

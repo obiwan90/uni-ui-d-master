@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@vant/area-data": "^1.5.1",
+    "crypto-js": "^4.2.0",
+    "elasticlunr": "^0.9.5",
+    "flexsearch": "^0.7.43",
+    "fuse.js": "^7.0.0",
+    "jieba": "^1.0.0",
+    "jieba-js": "^1.0.2",
+    "js-jieba": "^1.0.12",
+    "nodejieba": "^2.6.0",
+    "pinia": "^2.1.7",
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "^2.0.8-beta.4",
+    "unplugin-auto-import": "^0.17.5",
+    "vant-weapp": "^0.5.29",
+    "wxml-to-canvas": "^1.1.1"
+  }
+}

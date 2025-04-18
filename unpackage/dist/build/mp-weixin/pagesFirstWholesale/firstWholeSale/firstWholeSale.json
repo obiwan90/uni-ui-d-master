@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "van-tag": "../../wxcomponents/dist/tag/index",
+    "van-swipe-cell": "../../wxcomponents/dist/swipe-cell/index",
+    "van-cell": "../../wxcomponents/dist/cell/index",
+    "van-cell-group": "../../wxcomponents/dist/cell-group/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "offline-payment-pannel": "./components/offlinePaymentPannel",
+    "qiao-select": "../../uni_modules/qiao-select/components/qiao-select/qiaoSelect",
+    "select-customer-pannel": "./components/selectCustomerPannel"
+  }
+}

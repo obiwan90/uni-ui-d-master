@@ -1,0 +1,1 @@
+<view class="cus-float-button data-v-7756b05d" style="{{'right:' + a + ';' + ('top:' + b)}}" bindtouchstart="{{c}}" bindtouchmove="{{d}}" bindtouchend="{{e}}" bindtap="{{f}}"><view class="button-image-container data-v-7756b05d"><image class="button-image data-v-7756b05d" src="https://www.xzxskj.com/xcximg/icon_fabu_maihuo@3x.png" mode="aspectFill"></image></view></view>

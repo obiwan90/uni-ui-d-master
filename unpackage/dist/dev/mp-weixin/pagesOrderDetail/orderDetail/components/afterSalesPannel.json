@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-upload": "../../../uni_modules/uv-upload/components/uv-upload/uv-upload",
+    "uv-transition": "../../../uni_modules/uv-transition/components/uv-transition/uv-transition",
+    "uni-popup-dialog": "../../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

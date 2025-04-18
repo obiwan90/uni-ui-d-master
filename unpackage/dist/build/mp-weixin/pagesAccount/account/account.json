@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-header": "../../components/custom-header/custom-header",
+    "uv-tabs": "../../uni_modules/uv-tabs/components/uv-tabs/uv-tabs",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "account-shai-xuan-pannel": "./components/accountShaiXuan",
+    "export-log-pannel": "./components/exportLog"
+  }
+}

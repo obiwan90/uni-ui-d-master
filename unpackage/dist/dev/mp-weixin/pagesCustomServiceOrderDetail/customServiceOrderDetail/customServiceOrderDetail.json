@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-uploader": "../../wxcomponents/dist/uploader/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "uv-alert": "../../uni_modules/uv-alert/components/uv-alert/uv-alert",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "user-service-pannel": "./components/userServicePannel"
+  }
+}

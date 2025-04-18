@@ -1,0 +1,1 @@
+"use strict";const t=require("../common/vendor.js"),e=t.defineStore("permission",{state:()=>({menuAuthorityData:t.ref([])}),actions:{loadMenuAuthority(){const e=t.index.getStorageSync("userAuthorityUrls")||{route:[],menu:[],api:[]};this.menuAuthorityData.value=e.menu||[]},hasMenuAuthority(t){return t&&this.menuAuthorityData.value.includes(t)}}});exports.usePermissionStore=e;

@@ -1,0 +1,1 @@
+"use strict";const e=require("../../utils/customRequest.js");exports.apiCheackMaintenance=function(t){return e.customRequest("/Home/Query/search",t,"POST")},exports.apiGetBrand=function(t){return e.customRequest("/Home/query/Index",t,"POST")},exports.apiGetmaintenanceHis=function(t){return e.customRequest("/Home/query/indexsss",t,"POST")};

@@ -1,0 +1,270 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.newSell.data-v-b55e12ad {
+  height: 100%;
+  width: 750rpx;
+  background: #f3f2f6;
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newSell .search.data-v-b55e12ad {
+  box-sizing: border-box;
+  margin-top: 36rpx;
+  width: 710rpx;
+  height: 96rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.05);
+  border-radius: 20rpx 20rpx 0rpx 0rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+}
+.newSell .search-img.data-v-b55e12ad {
+  height: 32rpx;
+  width: 32rpx;
+  margin-right: 20rpx;
+}
+.newSell .search-select.data-v-b55e12ad {
+  width: 100%;
+}
+.newSell .content-1.data-v-b55e12ad {
+  box-sizing: border-box;
+  margin-top: 8rpx;
+  width: 710rpx;
+  background: #ffffff;
+  border-radius: 0rpx 0rpx 20rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  padding-right: 20rpx;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.05);
+}
+.newSell .content-1 .top.data-v-b55e12ad {
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newSell .content-1 .top .left.data-v-b55e12ad {
+  width: 166rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.newSell .content-1 .top .left text.data-v-b55e12ad {
+  width: 118rpx;
+  height: 44rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #1f1f1f;
+  font-style: normal;
+  text-transform: none;
+}
+.newSell .content-1 .top .right.data-v-b55e12ad {
+  width: 77%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #eeeeee;
+  height: 100%;
+  align-items: center;
+}
+.newSell .content-1 .top .right .selectDownUp.data-v-b55e12ad {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newSell .content-1 .top .right text.data-v-b55e12ad {
+  height: 42rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #1f1f1f;
+  opacity: 0.4;
+}
+.newSell .content-1 .top .right .selelct.data-v-b55e12ad {
+  width: 96rpx;
+  border-left: 2rpx solid #eeeeee;
+}
+.newSell .content-1 .top .right .selelct text.data-v-b55e12ad {
+  height: 40rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #669cfd;
+  margin-left: 20rpx;
+}
+.newSell .select-card.data-v-b55e12ad {
+  margin-top: 16rpx;
+  width: 710rpx;
+  height: 100rpx;
+  background: #ffffff;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+}
+.newSell .select.data-v-b55e12ad {
+  margin-top: 20rpx;
+  width: 710rpx;
+  height: 100rpx;
+  background: #ffffff;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newSell .select .left.data-v-b55e12ad {
+  width: 166rpx;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newSell .select .left text.data-v-b55e12ad {
+  height: 40rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #1f1f1f;
+}
+.newSell .select .right.data-v-b55e12ad {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.newSell .select .right .text-1.data-v-b55e12ad {
+  height: 42rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 30rpx;
+  color: #1f1f1f;
+}
+.newSell .select .right .text-2.data-v-b55e12ad {
+  height: 42rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 30rpx;
+  color: #1f1f1f;
+}
+.newSell .select .right .lable.data-v-b55e12ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20rpx;
+}
+.newSell .select .right .lable .lable-image.data-v-b55e12ad {
+  height: 28rpx;
+  width: 28rpx;
+  margin-right: 10rpx;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newSell .select .right .lable .lable-image image.data-v-b55e12ad {
+  height: 100%;
+  width: 100%;
+}
+.newSell .select .right .lable text.data-v-b55e12ad {
+  height: 40rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #eb4636;
+}
+.newSell .message.data-v-b55e12ad {
+  box-sizing: border-box;
+  margin-top: 16rpx;
+  width: 710rpx;
+  height: 160rpx;
+  background: #ffffff;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  padding: 28rpx 20rpx;
+}
+.newSell .message .texta.data-v-b55e12ad {
+  height: 100%;
+  width: 100%;
+}
+.newSell .photos.data-v-b55e12ad {
+  width: 710rpx;
+  margin-top: 16rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.newSell .photos .upVideo.data-v-b55e12ad {
+  margin-top: 20rpx;
+}
+.newSell .tip.data-v-b55e12ad {
+  margin-top: 54rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newSell .tip text.data-v-b55e12ad {
+  height: 28rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 20rpx;
+  opacity: 0.4;
+}
+.newSell .bar.data-v-b55e12ad {
+  z-index: 99;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 750rpx;
+  height: 182rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.1);
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24rpx 30rpx 62rpx 30rpx;
+}
+.newSell .bar .btn.data-v-b55e12ad {
+  width: 690rpx;
+  height: 96rpx;
+  background: linear-gradient(135deg, #ed784b 0%, #eb4636 100%);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newSell .bar .btn text.data-v-b55e12ad {
+  height: 42rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 30rpx;
+  color: #ffffff;
+}

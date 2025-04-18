@@ -1,0 +1,1 @@
+"use strict";const e=require("../../utils/customRequest.js");exports.apiGetProductId=function(t){return e.customRequest("/Home/Freerelease/xhinfos",t,"POST")},exports.apiRecoveryList=function(t){return e.customRequest("/Home/Quotation/index",t,"POST")},exports.apiRecycleClassify=function(t){return e.customRequest("/Home/Classification/hsbjindex",t,"POST")};

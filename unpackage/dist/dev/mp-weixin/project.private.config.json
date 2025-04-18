@@ -1,0 +1,3048 @@
+{
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "uni-ui-d",
+  "setting": {
+    "compileHotReLoad": true,
+    "preloadBackgroundData": false,
+    "skylineRenderEnable": true,
+    "autoAudits": false
+  },
+  "libVersion": "3.4.3",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pagesSell/sell/sell",
+          "pathName": "pagesSell/sell/sell",
+          "query": "id=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesShopCar/shopCar/shopCar",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "pathName": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=436",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesListingProduct/listingProduct/listingProduct",
+          "pathName": "pagesListingProduct/listingProduct/listingProduct",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesQualityReport/qualityReport/qualityReport",
+          "pathName": "pagesQualityReport/qualityReport/qualityReport",
+          "query": "ch=356155663272492",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesQualityReport/qualityReport/qualityReport",
+          "pathName": "pagesQualityReport/qualityReport/qualityReport",
+          "query": "ch=356155663272492",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesAccount/account/account",
+          "pathName": "pagesAccount/account/account",
+          "query": "from=user",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesDataCenter/dataCenter/dataCenter",
+          "pathName": "pagesDataCenter/dataCenter/dataCenter",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesDataCenterProductData/dataCenterProductData/dataCenterProductData",
+          "pathName": "pagesDataCenterProductData/dataCenterProductData/dataCenterProductData",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFuncCheck/funcCheck/funcCheck",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesStaffManager/staffManager/staffManager",
+          "pathName": "pagesStaffManager/staffManager/staffManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesStaffInfos/staffInfos/staffInfos",
+          "pathName": "pagesStaffInfos/staffInfos/staffInfos",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesAuthority/authority/authority",
+          "pathName": "pagesAuthority/authority/authority",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesSubOrder/subOrder/subOrder",
+          "pathName": "pagesSubOrder/subOrder/subOrder",
+          "query": "data=%257B%2522lx%2522%253A%25222%2522%252C%2522id%2522%253A%252245%2522%257D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrderDetail/orderDetail/orderDetail",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "orderId=56",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrderDetail/orderDetail/orderDetail",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "orderId=56",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrderDetail/orderDetail/orderDetail",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "orderId=55",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrderDetail/orderDetail/orderDetail",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "orderId=55",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrderDetail/orderDetail/orderDetail",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "orderId=51",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "order=4",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "order=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesShOrderDetail/shOrderDetail/shOrderDetail",
+          "pathName": "pagesShOrderDetail/shOrderDetail/shOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesShopCar/shopCar/shopCar",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "order=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "order=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesShopCar/shopCar/shopCar",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesNewSell/newSell/newSell",
+          "pathName": "pagesNewSell/newSell/newSell",
+          "query": "nextPageData=null",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomServiceOrderDetail/customServiceOrderDetail/customServiceOrderDetail",
+          "pathName": "pagesCustomServiceOrderDetail/customServiceOrderDetail/customServiceOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=24",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesQualityReport/qualityReport/qualityReport",
+          "pathName": "pagesQualityReport/qualityReport/qualityReport",
+          "query": "ch=665544777777777",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesQualityReport/qualityReport/qualityReport",
+          "pathName": "pagesQualityReport/qualityReport/qualityReport",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "id=42&ppid=2&name=%E5%8D%8E%E4%B8%BA%20Mate%20X5&flid=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFinanceDetail/financeDetail/financeDetail",
+          "pathName": "pagesFinanceDetail/financeDetail/financeDetail",
+          "query": "data=5",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesSell/sell/sell",
+          "pathName": "pagesSell/sell/sell",
+          "query": "item=%257B%2522id%2522%253A%252220%2522%252C%2522opid%2522%253A%2522oFzRr7dmRdbLxmFB_G6LsnyE_UXk%2522%252C%2522phone%2522%253A%252215184492882%2522%252C%2522type%2522%253A%25221%2522%252C%2522fullname%2522%253A%2522%25E5%25B0%258F%25E7%25B1%25B3%252014%2520%252016G%252B1T%2520%25E9%259B%2585%25E7%2581%25B0%2522%252C%2522fullnameid%2522%253A%25224248%2522%252C%2522fineness%2522%253A%2522%25E5%2585%25A8%25E6%2596%25B0%25E6%259C%25AA%25E6%25BF%2580%25E6%25B4%25BB%2522%252C%2522functions%2522%253A%2522%25E5%2585%25A8%25E5%25A5%25BD%2522%252C%2522service%2522%253A%2522%25E5%2585%25A8%25E5%258E%259F%2522%252C%2522price%2522%253A%25221000%2522%252C%2522num%2522%253A%25221%2522%252C%2522duration%2522%253A%252212%2522%252C%2522describes%2522%253A%2522test%2522%252C%2522img%2522%253A%2522https%253A%252F%252Fwww.xzxskj.com%252FPublic%252Fqianduan%252F202408161032235281.jpg%2522%252C%2522kssj%2522%253A%2522%2522%252C%2522jssj%2522%253A%2522%2522%252C%2522add_time%2522%253A%25221723775544%2522%252C%2522zt%2522%253A%25221%2522%252C%2522spid%2522%253A%252230%2522%257D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesApproval/approval/approval",
+          "pathName": "pagesApproval/approval/approval",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrderDetail/orderDetail/orderDetail",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFinance/finance/finance",
+          "pathName": "pagesFinance/finance/finance",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFinance/finance/finance",
+          "pathName": "pagesFinance/finance/finance",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesSell/sell/sell",
+          "pathName": "pagesSell/sell/sell",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesMarket/market/market",
+          "pathName": "pagesMarket/market/market",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesWithdrawal/withdrawal/withdrawal",
+          "pathName": "pagesWithdrawal/withdrawal/withdrawal",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesDataCenterDetail/dataCenterDetail/dataCenterDetail",
+          "pathName": "pagesDataCenterDetail/dataCenterDetail/dataCenterDetail",
+          "query": "title=%E9%94%80%E5%94%AE%E6%95%B0%E6%8D%AE",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecovery/recovery/recovery",
+          "pathName": "pagesRecovery/recovery/recovery",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/market/market",
+          "pathName": "pages/market/market",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesMovingInventory/movingInventory/movingInventory",
+          "pathName": "pagesMovingInventory/movingInventory/movingInventory",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=31",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesMovingInventory/movingInventory/movingInventory",
+          "pathName": "pagesMovingInventory/movingInventory/movingInventory",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesMovingInventory/movingInventory/movingInventory",
+          "pathName": "pagesMovingInventory/movingInventory/movingInventory",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesWarehouseManagement/warehouseManagement/new",
+          "pathName": "pagesWarehouseManagement/warehouseManagement/new",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesWarehouseManagement/warehouseManagement/warehouseManagement",
+          "pathName": "pagesWarehouseManagement/warehouseManagement/warehouseManagement",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesAftersalesRules/aftersalesRules/aftersalesRules",
+          "pathName": "pagesAftersalesRules/aftersalesRules/aftersalesRules",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesPayAccount/payAccount/payAccount",
+          "pathName": "pagesPayAccount/payAccount/payAccount",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=30",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "id=42&ppid=2&name=%E5%8D%8E%E4%B8%BA%20Mate%20X5&flid=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "id=1&ppid=1&name=%E8%8B%B9%E6%9E%9C%20iPhone%2015%20Pro%20Max&flid=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "id=1&ppid=1&name=%E8%8B%B9%E6%9E%9C%20iPhone%2015%20Pro%20Max&flid=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "id=1&ppid=1&name=%E8%8B%B9%E6%9E%9C%20iPhone%2015%20Pro%20Max",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "id=1&ppid=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFinance/finance/finance",
+          "pathName": "pagesFinance/finance/finance",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "pathName": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesImeiTrack/ImeiTrack/imeiTrack",
+          "pathName": "pagesImeiTrack/ImeiTrack/imeiTrack",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomServiceOrderDetail/customServiceOrderDetail/customServiceOrderDetail",
+          "pathName": "pagesCustomServiceOrderDetail/customServiceOrderDetail/customServiceOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "sh=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=11",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesDataCenterDetail/dataCenterDetail/dataCenterDetail",
+          "pathName": "pagesDataCenterDetail/dataCenterDetail/dataCenterDetail",
+          "query": "title=%E9%94%80%E5%94%AE%E6%95%B0%E6%8D%AE",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesShOrderDetail/shOrderDetail/shOrderDetail",
+          "pathName": "pagesShOrderDetail/shOrderDetail/shOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesDataCenterDetail/dataCenterDetail/dataCenterDetail",
+          "pathName": "pagesDataCenterDetail/dataCenterDetail/dataCenterDetail",
+          "query": "title=%E9%94%80%E5%94%AE%E6%95%B0%E6%8D%AE",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesDataCenterDetail/dataCenterDetail/dataCenterDetail",
+          "pathName": "pagesDataCenterDetail/dataCenterDetail/dataCenterDetail",
+          "query": "title=%E9%94%80%E5%94%AE%E6%95%B0%E6%8D%AE",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesDataCenterDetail/dataCenterDetail/dataCenterDetail",
+          "pathName": "pagesDataCenterDetail/dataCenterDetail/dataCenterDetail",
+          "query": "title=%E9%94%80%E5%94%AE%E6%95%B0%E6%8D%AE",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrderDetail/orderDetail/orderDetail",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesDataCenterProductData/dataCenterProductData/dataCenterProductData",
+          "pathName": "pagesDataCenterProductData/dataCenterProductData/dataCenterProductData",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesDataCenterProductData/dataCenterProductData/dataCenterProductData",
+          "pathName": "pagesDataCenterProductData/dataCenterProductData/dataCenterProductData",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesDataCenterProductData/dataCenterProductData/dataCenterProductData",
+          "pathName": "pagesDataCenterProductData/dataCenterProductData/dataCenterProductData",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesShOrderDetail/shOrderDetail/shOrderDetail",
+          "pathName": "pagesShOrderDetail/shOrderDetail/shOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesShOrderDetail/shOrderDetail/shOrderDetail",
+          "pathName": "pagesShOrderDetail/shOrderDetail/shOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrder/order/order",
+          "pathName": "pagesOrder/order/order",
+          "query": "sh=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "pathName": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesQualityControl/qualityControl/qualityControl",
+          "pathName": "pagesQualityControl/qualityControl/qualityControl",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesImeiTrack/ImeiTrack/imeiTrack",
+          "pathName": "pagesImeiTrack/ImeiTrack/imeiTrack",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "pathName": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "pathName": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProcurementDescription/procurementDescription/procurementDescription",
+          "pathName": "pagesProcurementDescription/procurementDescription/procurementDescription",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "id=26&ppid=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProcurementDescription/procurementDescription/procurementDescription",
+          "pathName": "pagesProcurementDescription/procurementDescription/procurementDescription",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProcurementDescription/procurementDescription/procurementDescription",
+          "pathName": "pagesProcurementDescription/procurementDescription/procurementDescription",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "id=2&ppid=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "id=2&ppid=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "id=1&ppid=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "id=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecovery/recovery/recovery",
+          "pathName": "pagesRecovery/recovery/recovery",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=4",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesStaffInfos/staffInfos/staffInfos",
+          "pathName": "pagesStaffInfos/staffInfos/staffInfos",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "pathName": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesDataCenter/dataCenter/dataCenter",
+          "pathName": "pagesDataCenter/dataCenter/dataCenter",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesAdmin/admin/admin",
+          "pathName": "pagesAdmin/admin/admin",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=13",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesTakePhoto/takePhoto/takePhoto",
+          "pathName": "pagesTakePhoto/takePhoto/takePhoto",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesTakePhoto/takePhoto/takePhoto",
+          "pathName": "pagesTakePhoto/takePhoto/takePhoto",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesTakePhoto/takePhoto/takePhoto",
+          "pathName": "pagesTakePhoto/takePhoto/takePhoto",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "yj=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesSubOrder/subOrder/subOrder",
+          "pathName": "pagesSubOrder/subOrder/subOrder",
+          "query": "data=%257B%2522lx%2522%253A%25222%2522%252C%2522id%2522%253A%25226%252C1%2522%257D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=8",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=8",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrderDetail/orderDetail/orderDetail",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrderDetail/orderDetail/orderDetail",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomMine/customMine/customMine",
+          "pathName": "pagesCustomMine/customMine/customMine",
+          "query": "from=identity",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=8",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "pathName": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesTakePhoto/takePhoto/takePhoto",
+          "pathName": "pagesTakePhoto/takePhoto/takePhoto",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOneClickUpload/oneClickUpload/oneClickUpload",
+          "pathName": "pagesOneClickUpload/oneClickUpload/oneClickUpload",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFuncCheck/funcCheck/funcCheck",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesTakePhoto/takePhoto/takePhoto",
+          "pathName": "pagesTakePhoto/takePhoto/takePhoto",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesMaintenanceInput/maintenanceInput/maintenanceInput",
+          "pathName": "pagesMaintenanceInput/maintenanceInput/maintenanceInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFuncCheck/funcCheck/funcCheck",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFuncCheck/funcCheck/funcCheck",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFuncCheck/funcCheck/funcCheck",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFuncCheck/funcCheck/funcCheck",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "yj=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "yj=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrder/order/order",
+          "pathName": "pagesOrder/order/order",
+          "query": "yj=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesClassify/classify/classify",
+          "pathName": "pagesClassify/classify/classify",
+          "query": "res=%257B%2522code%2522%253A%2522200%2522%252C%2522classlist%2522%253A%255B%257B%2522id%2522%253A%25221%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522sort%2522%253A%25221%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25220%2522%257D%252C%257B%2522id%2522%253A%25222%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E5%25B9%25B3%25E6%259D%25BF%2522%252C%2522sort%2522%253A%25222%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25220%2522%257D%252C%257B%2522id%2522%253A%25223%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E6%2589%258B%25E8%25A1%25A8%2522%252C%2522sort%2522%253A%25223%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25221711016067%2522%257D%252C%257B%2522id%2522%253A%25224%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E8%2580%25B3%25E6%259C%25BA%2522%252C%2522sort%2522%253A%25224%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25221711016089%2522%257D%252C%257B%2522id%2522%253A%25225%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E7%25AC%2594%25E8%25AE%25B0%25E6%259C%25AC%2522%252C%2522sort%2522%253A%25225%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25220%2522%257D%252C%257B%2522id%2522%253A%25226%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E5%258F%25B0%25E5%25BC%258F%25E7%2594%25B5%25E8%2584%2591%2522%252C%2522sort%2522%253A%25226%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25220%2522%257D%252C%257B%2522id%2522%253A%25227%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E6%2599%25BA%25E8%2583%25BD%25E7%25AC%2594%2522%252C%2522sort%2522%253A%25227%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25220%2522%257D%252C%257B%2522id%2522%253A%25228%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E6%2599%25BA%25E8%2583%25BD%25E6%2589%258B%25E7%258E%25AF%2522%252C%2522sort%2522%253A%25228%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25221711016040%2522%257D%252C%257B%2522id%2522%253A%25229%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E7%259B%25B8%25E6%259C%25BA%2522%252C%2522sort%2522%253A%25229%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25221711016050%2522%257D%252C%257B%2522id%2522%253A%252210%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E6%2591%2584%25E5%2583%258F%25E6%259C%25BA%2522%252C%2522sort%2522%253A%252210%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25221711015973%2522%257D%255D%252C%2522classid%2522%253A%25221%2522%252C%2522brandlist%2522%253A%255B%257B%2522id%2522%253A%25221%2522%252C%2522name%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25221%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A3%257D%252C%257B%2522id%2522%253A%25222%2522%252C%2522name%2522%253A%2522%25E5%258D%258E%25E4%25B8%25BA%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25222%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A3%257D%252C%257B%2522id%2522%253A%25223%2522%252C%2522name%2522%253A%2522%25E8%258D%25A3%25E8%2580%2580%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25223%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25224%2522%252C%2522name%2522%253A%2522OPPO%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25224%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25225%2522%252C%2522name%2522%253A%2522vivo%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25225%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25226%2522%252C%2522name%2522%253A%2522iQOO%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25226%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25227%2522%252C%2522name%2522%253A%2522realme%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25227%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25228%2522%252C%2522name%2522%253A%2522%25E5%25B0%258F%25E7%25B1%25B3%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25228%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25229%2522%252C%2522name%2522%253A%2522%25E7%25BA%25A2%25E7%25B1%25B3%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25229%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%252210%2522%252C%2522name%2522%253A%2522%25E4%25B8%2589%25E6%2598%259F%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%252210%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%252211%2522%252C%2522name%2522%253A%2522%25E4%25B8%2580%25E5%258A%25A0%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%252211%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%252212%2522%252C%2522name%2522%253A%2522%25E9%25AD%2585%25E6%2597%258F%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%252212%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%252213%2522%252C%2522name%2522%253A%2522%25E6%2591%25A9%25E6%2589%2598%25E7%25BD%2597%25E6%258B%2589%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%252213%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%252214%2522%252C%2522name%2522%253A%2522%25E7%25B4%25A2%25E5%25B0%25BC%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%252214%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%255D%252C%2522brandids%2522%253A%25221%2522%252C%2522serieslist%2522%253A%255B%257B%2522id%2522%253A%25224%2522%252C%2522name%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25E7%25B3%25BB%25E5%2588%2597%255Ct%255Ct%2522%252C%2522fid%2522%253A%25220%2522%252C%2522sort%2522%253A%25220%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522updatetime%2522%253A%25221716978130%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522xlname%2522%253A%252215%25E7%25B3%25BB%25E5%2588%2597%255Ct%255Ct%2522%252C%2522num%2522%253A1%257D%252C%257B%2522id%2522%253A%25225%2522%252C%2522name%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C14%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522fid%2522%253A%25220%2522%252C%2522sort%2522%253A%25220%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522updatetime%2522%253A%25221716978130%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522xlname%2522%253A%252214%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25226%2522%252C%2522name%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C13%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522fid%2522%253A%25220%2522%252C%2522sort%2522%253A%25220%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522updatetime%2522%253A%25221716978139%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522xlname%2522%253A%252213%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522num%2522%253A0%257D%255D%252C%2522seriesids%2522%253A%25221%2522%252C%2522marquelist%2522%253A%255B%257B%2522id%2522%253A%25222%2522%252C%2522xhname%2522%253A%2522%25E5%258D%258E%25E4%25B8%25BANova%252012%2522%252C%2522sort%2522%253A%25222%2522%252C%2522hide%2522%253A%25220%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522ppid%2522%253A%25222%2522%252C%2522ppname%2522%253A%2522%25E5%258D%258E%25E4%25B8%25BA%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xlname%2522%253A%2522%25E5%258D%258E%25E4%25B8%25BANova%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522ys%2522%253A%2522%2522%252C%2522ysname%2522%253A%2522%2522%252C%2522nc%2522%253A%2522%2522%252C%2522ncname%2522%253A%2522%2522%252C%2522wlxh%2522%253A%2522%2522%252C%2522cd%2522%253A%252215%2522%252C%2522spname%2522%253A%2522%2522%252C%2522imgs%2522%253A%2522%252FPublic%252Fmarqueimg%252F6657036124cc75497.png%2522%252C%2522updatetime%2522%253A%2522%2522%252C%2522special%2522%253A%25221%2522%252C%2522sfzd%2522%253A%25222%2522%252C%2522bb%2522%253A%25225G%2522%252C%2522qcname%2522%253A%2522%25E5%258D%258E%25E4%25B8%25BANova%252012%25205G%2522%252C%2522jkid%2522%253A%25224%252C8%252C12%252C15%252C16%252C20%252C23%252C26%252C29%252C32%252C36%252C%2522%252C%2522gnid%2522%253A%252239%252C43%252C46%252C47%252C48%252C49%252C50%252C51%252C52%252C53%252C54%252C55%252C56%252C57%252C58%252C59%252C60%252C61%252C62%252C63%252C64%252C65%252C66%252C67%252C68%252C69%252C%2522%252C%2522wxid%2522%253A%2522137%252C138%252C139%252C140%252C141%252C142%252C143%252C144%252C145%252C%2522%252C%2522sfjcdcxl%2522%253A%25222%2522%252C%2522num%2522%253A2%252C%2522price%2522%253A%25221%2522%257D%255D%257D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesServiceOrderDetail/serviceOrderDetail/serviceOrderDetail",
+          "pathName": "pagesServiceOrderDetail/serviceOrderDetail/serviceOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesListingProduct/listingProduct/listingProduct",
+          "pathName": "pagesListingProduct/listingProduct/listingProduct",
+          "query": "data=123",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesListingProduct/listingProduct/listingProduct",
+          "pathName": "pagesListingProduct/listingProduct/listingProduct",
+          "query": "data=123",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrder/order/order",
+          "pathName": "pagesOrder/order/order",
+          "query": "sh=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesOrder/order/order",
+          "pathName": "pagesOrder/order/order",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesListingProduct/listingProduct/listingProduct",
+          "pathName": "pagesListingProduct/listingProduct/listingProduct",
+          "query": "data=123",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesStaffManager/staffManager/staffManager",
+          "pathName": "pagesStaffManager/staffManager/staffManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesAuthority/authority/authority",
+          "pathName": "pagesAuthority/authority/authority",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesStaffManager/staffManager/staffManager",
+          "pathName": "pagesStaffManager/staffManager/staffManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesAuthority/authority/authority",
+          "pathName": "pagesAuthority/authority/authority",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFinance/finance/finance",
+          "pathName": "pagesFinance/finance/finance",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomManager/customManager/customManager",
+          "pathName": "pagesCustomManager/customManager/customManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomManager/customManager/customManager",
+          "pathName": "pagesCustomManager/customManager/customManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesMyCustomer/myCustomer/myCustomer",
+          "pathName": "pagesMyCustomer/myCustomer/myCustomer",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesMyCustomer/myCustomer/myCustomer",
+          "pathName": "pagesMyCustomer/myCustomer/myCustomer",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesListingProduct/listingProduct/listingProduct",
+          "pathName": "pagesListingProduct/listingProduct/listingProduct",
+          "query": "data=123",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "pathName": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "query": "data=123",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesTakePhoto/takePhoto/takePhoto",
+          "pathName": "pagesTakePhoto/takePhoto/takePhoto",
+          "query": "data=123",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesMaintenanceInput/maintenanceInput/maintenanceInput",
+          "pathName": "pagesMaintenanceInput/maintenanceInput/maintenanceInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesMaintenanceInput/maintenanceInput/maintenanceInput",
+          "pathName": "pagesMaintenanceInput/maintenanceInput/maintenanceInput",
+          "query": "data=123",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFuncCheck/funcCheck/funcCheck",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "data=%257B%2522spname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C14%25208G%252B128G%2520%25E9%25BB%2591%25E8%2589%25B2%2522%252C%2522imei%2522%253A%2522123456789012345%2522%252C%2522inputTime%2522%253A%25222024-05-27%2522%252C%2522inputPerson%2522%253A%2522%25E9%2587%2591%25E5%2585%258B%25E6%2596%25AF%2522%252C%2522id%2522%253A%252221%2522%252C%2522purchaseEmployee%2522%253A%2522%25E9%2587%2591%25E5%2585%258B%25E6%2596%25AF%2522%257D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFuncCheck/funcCheck/funcCheck",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "data=%257B%2522spname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C14%25208G%252B129G%2520%25E7%2599%25BD%25E8%2589%25B2%2522%252C%2522imei%2522%253A%2522123456789012345%2522%252C%2522inputTime%2522%253A%25222024-05-27%2522%252C%2522inputPerson%2522%253A%2522%25E9%2587%2591%25E5%2585%258B%25E6%2596%25AF%2522%252C%2522id%2522%253A%252220%2522%252C%2522purchaseEmployee%2522%253A%2522%25E9%2587%2591%25E5%2585%258B%25E6%2596%25AF%2522%257D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "pathName": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "query": "data=%257B%2522spname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C14%25208G%252B128G%2520%25E9%25BB%2591%25E8%2589%25B2%2522%252C%2522imei%2522%253A%2522009%2522%252C%2522inputTime%2522%253A%25222024-05-27%2522%252C%2522funcInputTime%2522%253A%25222024-05-27%2522%252C%2522maintenanceInputTime%2522%253A%25222024-05-27%2522%252C%2522inputPerson%2522%253A%2522%25E9%2587%2591%25E5%2585%258B%25E6%2596%25AF%2522%252C%2522funcInputPerson%2522%253A%2522%25E9%2587%2591%25E5%2585%258B%25E6%2596%25AF%2522%252C%2522maintenanceInputPerson%2522%253A%2522%25E9%2587%2591%25E5%2585%258B%25E6%2596%25AF%2522%252C%2522id%2522%253A%252217%2522%257D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFuncCheck/funcCheck/funcCheck",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "data=%257B%2522spname%2522%253A%2522%2522%252C%2522imei%2522%253A%2522%2522%252C%2522inputTime%2522%253A%25222024-05-26%2522%252C%2522inputPerson%2522%253A%2522%25E9%2587%2591%25E5%2585%258B%25E6%2596%25AF%2522%252C%2522id%2522%253A%2522%2522%257D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFuncCheck/funcCheck/funcCheck",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "data=%257B%2522spname%2522%253A%2522%2522%252C%2522imei%2522%253A%2522%2522%252C%2522inputTime%2522%253A%25222024-05-26%2522%252C%2522inputPerson%2522%253A%2522%25E9%2587%2591%25E5%2585%258B%25E6%2596%25AF%2522%252C%2522id%2522%253A%2522%2522%257D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomSellOrderDetail/customSellOrderDetail/customSellOrderDetail",
+          "pathName": "pagesCustomSellOrderDetail/customSellOrderDetail/customSellOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomSellOrderDetail/customSellOrderDetail/customSellOrderDetail",
+          "pathName": "pagesCustomSellOrderDetail/customSellOrderDetail/customSellOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomSellOrderDetail/customSellOrderDetail/customSellOrderDetail",
+          "pathName": "pagesCustomSellOrderDetail/customSellOrderDetail/customSellOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomFristProductAfterSales/customFristProductAfterSalse/customFristProductAfterSalse",
+          "pathName": "pagesCustomFristProductAfterSales/customFristProductAfterSalse/customFristProductAfterSalse",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomFristProductAfterSales/customFristProductAfterSalse/customFristProductAfterSalse",
+          "pathName": "pagesCustomFristProductAfterSales/customFristProductAfterSalse/customFristProductAfterSalse",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesRecovery/recovery/recovery",
+          "pathName": "pagesRecovery/recovery/recovery",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomMine/customMine/customMine",
+          "pathName": "pagesCustomMine/customMine/customMine",
+          "query": "nextPageData=null",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFirstWholesale/firstWholeSale/firstWholeSale",
+          "pathName": "pagesFirstWholesale/firstWholeSale/firstWholeSale",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFirstWholesale/firstWholeSale/firstWholeSale",
+          "pathName": "pagesFirstWholesale/firstWholeSale/firstWholeSale",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=8",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesCustomOrder/customOrder/customOrder",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "fpak=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesMenber/menber/menber",
+          "pathName": "pagesMenber/menber/menber",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductInput/productInput/productInput",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesFirstWholesale/firstWholeSale/firstWholeSale",
+          "pathName": "pagesFirstWholesale/firstWholeSale/firstWholeSale",
+          "query": "settlementList=%255B%257B%2522id%2522%253A%252225%2522%252C%2522opid%2522%253A%2522oT4uj681IZVOC-f5iWnt41uR5IdA%2522%252C%2522goodsid%2522%253A%25223%2522%252C%2522num%2522%253A%25221%2522%252C%2522price%2522%253A%2522500%2522%252C%2522zt%2522%253A%25221%2522%252C%2522xiajia%2522%253A%25221%2522%252C%2522gsid%2522%253A%25221%2522%252C%2522add_time%2522%253A%25221716168137%2522%252C%2522goodsinfos%2522%253A%257B%2522id%2522%253A%25223%2522%252C%2522qcid%2522%253A%25222%2522%252C%2522name%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25208G%252B129G%2520%25E7%2599%25BD%25E8%2589%25B2%2522%252C%2522sort%2522%253A%25220%2522%252C%2522hide%2522%253A%25220%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xhid%2522%253A%25222%2522%252C%2522ncid%2522%253A%25222%2522%252C%2522ysid%2522%253A%25222%2522%252C%2522ch%2522%253A%2522355475791589836%2522%252C%2522wpbm%2522%253A%2522BYYP589836%2522%252C%2522efficiency%2522%253A%252280%2522%252C%2522price%2522%253A%2522500%2522%252C%2522fineness%2522%253A%25222%2522%252C%2522zhid%2522%253A%25222%2522%252C%2522finenessname%2522%253A%2522%25E5%2585%25A8%25E5%25A5%2597%25E5%25B7%25B2%25E6%25BF%2580%25E6%25B4%25BB%2522%252C%2522cover%2522%253A%2522%252FPublic%252Fcoverimage%252F202404110235397163.jpg%2522%252C%2522productimage%2522%253A%2522%252FPublic%252Fproductimage%252F2024041102353921.jpg%252C%252FPublic%252Fproductimage%252F202404110235396097.jpg%252C%252FPublic%252Fproductimage%252F202404110235395979.jpg%252C%2522%252C%2522gjbb%2522%253A%25222%2522%252C%2522wlbb%2522%253A%25221%2522%252C%2522gjbbname%2522%253A%2522%25E6%25B8%25AF%25E8%25A1%258C%2522%252C%2522wlbbname%2522%253A%2522%25E5%2585%25A8%25E7%25BD%2591%25E9%2580%259A%2522%252C%2522bxztid%2522%253A%25221%2522%252C%2522bxzt%2522%253A%2522%2522%252C%2522cgyname%2522%253A%2522bykjgly%2522%252C%2522uid%2522%253A%25224%2522%252C%2522times%2522%253A%25221712813701%2522%252C%2522machine%2522%253A%2522%2522%252C%2522machinetime%2522%253A%25221712813825%2522%252C%2522jkuid%2522%253A%25224%2522%252C%2522gsid%2522%253A%25221%2522%252C%2522functional%2522%253A%2522%2522%252C%2522functionaltime%2522%253A%25221712813825%2522%252C%2522gnjcuid%2522%253A%25224%2522%252C%2522service%2522%253A%2522%2522%252C%2522servicetime%2522%253A%25221712813825%2522%252C%2522serviceuid%2522%253A%25221%2522%252C%2522zt%2522%253A%25221%2522%252C%2522shopid%2522%253A%25221%2522%252C%2522shopname%2522%253A%2522%25E5%258D%259A%25E5%25BC%2588%25E7%25A7%2591%25E6%258A%2580%2522%252C%2522delivery%2522%253A%2522%25E7%25BB%25B5%25E9%2598%25B3%25E5%25B8%2582%2522%252C%2522add_times%2522%253A%25221711957395%2522%252C%2522updatetime%2522%253A%25221713410549%2522%252C%2522special%2522%253A%25222%2522%252C%2522jkbz%2522%253A%2522%2522%252C%2522gnjcbz%2522%253A%2522%2522%252C%2522wxjcbz%2522%253A%2522%2522%252C%2522zjlx%2522%253A%25221%2522%252C%2522ckid%2522%253A%25222%2522%252C%2522bxsj%2522%253A%2522%2522%252C%2522jbztycbg%2522%253A%2522%2522%252C%2522gnjcycbg%2522%253A%2522%2522%252C%2522wxjcycbg%2522%253A%2522%2522%252C%2522jkys%2522%253A%2522%2522%252C%2522jkyszt%2522%253A%2522%2522%252C%2522gnys%2522%253A%2522%2522%252C%2522gnyszt%2522%253A%2522%2522%252C%2522wxys%2522%253A%2522%2522%252C%2522wxyszt%2522%253A%2522%2522%252C%2522ckame%2522%253A%2522%2522%257D%257D%252C%257B%2522id%2522%253A%252226%2522%252C%2522opid%2522%253A%2522oT4uj681IZVOC-f5iWnt41uR5IdA%2522%252C%2522goodsid%2522%253A%25227%2522%252C%2522num%2522%253A%25221%2522%252C%2522price%2522%253A%2522999%2522%252C%2522zt%2522%253A%25221%2522%252C%2522xiajia%2522%253A%25221%2522%252C%2522gsid%2522%253A%25221%2522%252C%2522add_time%2522%253A%25221716170038%2522%252C%2522goodsinfos%2522%253A%257B%2522id%2522%253A%25227%2522%252C%2522qcid%2522%253A%252213%2522%252C%2522name%2522%253A%2522%25E8%258B%25B9%25E6%259E%259CiPhone11%2520Pro%255Ct%25208G%252B129G%2520%25E9%25BB%2591%25E8%2589%25B2%2522%252C%2522sort%2522%253A%25220%2522%252C%2522hide%2522%253A%25220%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xhid%2522%253A%25228%2522%252C%2522ncid%2522%253A%25222%2522%252C%2522ysid%2522%253A%25221%2522%252C%2522ch%2522%253A%2522868064046605488%2522%252C%2522wpbm%2522%253A%2522BYYP605488%2522%252C%2522efficiency%2522%253A%2522100%2522%252C%2522price%2522%253A%2522999%2522%252C%2522fineness%2522%253A%25226%2522%252C%2522zhid%2522%253A%25226%2522%252C%2522finenessname%2522%253A%252295%25E6%2596%25B0%2522%252C%2522cover%2522%253A%2522%252FPublic%252Fcoverimage%252F202405140202543048.jpg%2522%252C%2522productimage%2522%253A%2522%252FPublic%252Fproductimage%252F202405140202547708.jpg%252C%252FPublic%252Fproductimage%252F202405140202543547.jpg%252C%252FPublic%252Fproductimage%252F202405140202548446.jpg%252C%252FPublic%252Fproductimage%252F202405140202548247.jpg%252C%252FPublic%252Fproductimage%252F202405140202544147.jpg%252C%252FPublic%252Fproductimage%252F202405140202545414.jpg%252C%252FPublic%252Fproductimage%252F202405140202545289.jpg%252C%252FPublic%252Fproductimage%252F202405140202548300.jpg%252C%252FPublic%252Fproductimage%252F202405140202548278.jpg%252C%2522%252C%2522gjbb%2522%253A%25222%2522%252C%2522wlbb%2522%253A%25221%2522%252C%2522gjbbname%2522%253A%2522%25E6%25B8%25AF%25E8%25A1%258C%2522%252C%2522wlbbname%2522%253A%2522%25E5%2585%25A8%25E7%25BD%2591%25E9%2580%259A%2522%252C%2522bxztid%2522%253A%25221%2522%252C%2522bxzt%2522%253A%2522%25E6%259C%2589%25E4%25BF%259D%2522%252C%2522cgyname%2522%253A%2522%25E6%2580%25BB%2522%252C%2522uid%2522%253A%25221%2522%252C%2522times%2522%253A%25221715666474%2522%252C%2522machine%2522%253A%25225%252C10%252C13%252C13%252C18%252C21%252C25%252C27%252C31%252C33%252C38%252C%2522%252C%2522machinetime%2522%253A%25221715666522%2522%252C%2522jkuid%2522%253A%25221%2522%252C%2522gsid%2522%253A%25221%2522%252C%2522functional%2522%253A%252239%252C43%252C46%252C47%252C48%252C49%252C50%252C51%252C52%252C53%252C54%252C55%252C56%252C57%252C58%252C59%252C60%252C61%252C62%252C63%252C64%252C65%252C66%252C67%252C68%252C69%252C%2522%252C%2522functionaltime%2522%253A%25221715666522%2522%252C%2522gnjcuid%2522%253A%25221%2522%252C%2522service%2522%253A%2522146%252C149%252C152%252C155%252C158%252C161%252C163%252C166%252C169%252C%2522%252C%2522servicetime%2522%253A%25221715666522%2522%252C%2522serviceuid%2522%253A%25221%2522%252C%2522zt%2522%253A%25221%2522%252C%2522shopid%2522%253A%25221%2522%252C%2522shopname%2522%253A%2522%25E5%258D%259A%25E5%25BC%2588%25E7%25A7%2591%25E6%258A%2580%2522%252C%2522delivery%2522%253A%2522%25E7%25BB%25B5%25E9%2598%25B3%25E5%25B8%2582%2522%252C%2522add_times%2522%253A%25221715667373%2522%252C%2522updatetime%2522%253A%25221715667373%2522%252C%2522special%2522%253A%25222%2522%252C%2522jkbz%2522%253A%252211111%2522%252C%2522gnjcbz%2522%253A%252222222222%2522%252C%2522wxjcbz%2522%253A%25223333%2522%252C%2522zjlx%2522%253A%25221%2522%252C%2522ckid%2522%253A%25222%2522%252C%2522bxsj%2522%253A%25222024-05-31%2522%252C%2522jbztycbg%2522%253A%2522null%2522%252C%2522gnjcycbg%2522%253A%2522null%2522%252C%2522wxjcycbg%2522%253A%2522null%2522%252C%2522jkys%2522%253A%2522green%252C%252Cgreen%252Cgreen%252C%252Cgreen%252Cred%252Cgreen%252Cred%252Cgreen%252Cred%252C%2522%252C%2522jkyszt%2522%253A%2522%25E5%2585%2581%25E8%25AE%25B8%25E5%25BC%2582%25E5%25B8%25B8%2522%252C%2522gnys%2522%253A%2522green%252Cgreen%252Cgreen%252Cgreen%252Cgreen%252Cgreen%252Cgreen%252Cgreen%252Cgreen%252C%2522%252C%2522gnyszt%2522%253A%2522%25E5%2585%25A8%25E9%2583%25A8%25E6%25AD%25A3%25E5%25B8%25B8%2522%252C%2522wxys%2522%253A%2522green%252Cgreen%252Cgreen%252Cgreen%252Cgreen%252Cgreen%252Cgreen%252Cgreen%252Cgreen%252C%2522%252C%2522wxyszt%2522%253A%2522%25E5%2585%25A8%25E9%2583%25A8%25E6%25AD%25A3%25E5%25B8%25B8%2522%252C%2522ckame%2522%253A%2522%25E6%25B5%258B%25E8%25AF%2595%25E4%25BB%2593%25E5%25BA%2593%2522%257D%257D%255D&lx=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesSubOrder/subOrder/subOrder",
+          "pathName": "pagesSubOrder/subOrder/subOrder",
+          "query": "data=%257B%2522lx%2522%253A%25222%2522%252C%2522id%2522%253A%25223%2522%257D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesSubOrder/subOrder/subOrder",
+          "pathName": "pagesSubOrder/subOrder/subOrder",
+          "query": "data=%257B%2522lx%2522%253A%25222%2522%252C%2522id%2522%253A%25223%2522%257D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProductDetail/productDetail/productDetail",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesShopCar/shopCar/shopCar",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesProduct/product/product",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pagesClassify/classify/classify",
+          "pathName": "pagesClassify/classify/classify",
+          "query": "res=%257B%2522code%2522%253A%2522200%2522%252C%2522classlist%2522%253A%255B%257B%2522id%2522%253A%25221%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522sort%2522%253A%25221%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25220%2522%257D%252C%257B%2522id%2522%253A%25222%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E5%25B9%25B3%25E6%259D%25BF%2522%252C%2522sort%2522%253A%25222%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25220%2522%257D%252C%257B%2522id%2522%253A%25223%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E6%2589%258B%25E8%25A1%25A8%2522%252C%2522sort%2522%253A%25223%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25221711016067%2522%257D%252C%257B%2522id%2522%253A%25224%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E8%2580%25B3%25E6%259C%25BA%2522%252C%2522sort%2522%253A%25224%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25221711016089%2522%257D%252C%257B%2522id%2522%253A%25225%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E7%25AC%2594%25E8%25AE%25B0%25E6%259C%25AC%2522%252C%2522sort%2522%253A%25225%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25220%2522%257D%252C%257B%2522id%2522%253A%25226%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E5%258F%25B0%25E5%25BC%258F%25E7%2594%25B5%25E8%2584%2591%2522%252C%2522sort%2522%253A%25226%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25220%2522%257D%252C%257B%2522id%2522%253A%25227%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E6%2599%25BA%25E8%2583%25BD%25E7%25AC%2594%2522%252C%2522sort%2522%253A%25227%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25220%2522%257D%252C%257B%2522id%2522%253A%25228%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E6%2599%25BA%25E8%2583%25BD%25E6%2589%258B%25E7%258E%25AF%2522%252C%2522sort%2522%253A%25228%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25221711016040%2522%257D%252C%257B%2522id%2522%253A%25229%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E7%259B%25B8%25E6%259C%25BA%2522%252C%2522sort%2522%253A%25229%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25221711016050%2522%257D%252C%257B%2522id%2522%253A%252210%2522%252C%2522fid%2522%253A%25220%2522%252C%2522name%2522%253A%2522%25E6%2591%2584%25E5%2583%258F%25E6%259C%25BA%2522%252C%2522sort%2522%253A%252210%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522updatetime%2522%253A%25221711015973%2522%257D%255D%252C%2522classid%2522%253A%25221%2522%252C%2522brandlist%2522%253A%255B%257B%2522id%2522%253A%252218%2522%252C%2522name%2522%253A%2522%25E6%25B5%258B%25E8%25AF%2595%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25220%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25221%2522%252C%2522name%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25221%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A10%257D%252C%257B%2522id%2522%253A%25222%2522%252C%2522name%2522%253A%2522%25E5%258D%258E%25E4%25B8%25BA%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25222%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25223%2522%252C%2522name%2522%253A%2522%25E8%258D%25A3%25E8%2580%2580%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25223%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25224%2522%252C%2522name%2522%253A%2522OPPO%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25224%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25225%2522%252C%2522name%2522%253A%2522vivo%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25225%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25226%2522%252C%2522name%2522%253A%2522iQOO%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25226%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25227%2522%252C%2522name%2522%253A%2522realme%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25227%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25228%2522%252C%2522name%2522%253A%2522%25E5%25B0%258F%25E7%25B1%25B3%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25228%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%25229%2522%252C%2522name%2522%253A%2522%25E7%25BA%25A2%25E7%25B1%25B3%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%25229%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%252210%2522%252C%2522name%2522%253A%2522%25E4%25B8%2589%25E6%2598%259F%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%252210%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%252211%2522%252C%2522name%2522%253A%2522%25E4%25B8%2580%25E5%258A%25A0%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%252211%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%252212%2522%252C%2522name%2522%253A%2522%25E9%25AD%2585%25E6%2597%258F%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%252212%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%252213%2522%252C%2522name%2522%253A%2522%25E6%2591%25A9%25E6%2589%2598%25E7%25BD%2597%25E6%258B%2589%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%252213%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%252C%257B%2522id%2522%253A%252214%2522%252C%2522name%2522%253A%2522%25E7%25B4%25A2%25E5%25B0%25BC%2522%252C%2522fid%2522%253A%25221%2522%252C%2522sort%2522%253A%252214%2522%252C%2522hide%2522%253A%25220%2522%252C%2522dm%2522%253A%2522%2522%252C%2522num%2522%253A0%257D%255D%252C%2522brandids%2522%253A%25221%2522%252C%2522serieslist%2522%253A%255B%255D%252C%2522seriesids%2522%253A%25221%2522%252C%2522marquelist%2522%253A%255B%257B%2522id%2522%253A%25222%2522%252C%2522xhname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%2522%252C%2522sort%2522%253A%25222%2522%252C%2522hide%2522%253A%25220%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xlname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522ys%2522%253A%2522%2522%252C%2522ysname%2522%253A%2522%2522%252C%2522nc%2522%253A%2522%2522%252C%2522ncname%2522%253A%2522%2522%252C%2522wlxh%2522%253A%2522%2522%252C%2522cd%2522%253A%252222%2522%252C%2522spname%2522%253A%2522%2522%252C%2522imgs%2522%253A%2522%252FPublic%252Fmarqueimg%252F6636f11027c823948.png%2522%252C%2522updatetime%2522%253A%2522%2522%252C%2522special%2522%253A%25221%2522%252C%2522sfzd%2522%253A%25221%2522%252C%2522bb%2522%253A%2522%2522%252C%2522qcname%2522%253A%2522%2522%252C%2522num%2522%253A2%252C%2522price%2522%253A%2522500%2522%257D%252C%257B%2522id%2522%253A%25223%2522%252C%2522xhname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259CiPhone15%2520Pro%2520Max%255Ct%2522%252C%2522sort%2522%253A%25223%2522%252C%2522hide%2522%253A%25220%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xlname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522ys%2522%253A%2522%2522%252C%2522ysname%2522%253A%2522%2522%252C%2522nc%2522%253A%2522%2522%252C%2522ncname%2522%253A%2522%2522%252C%2522wlxh%2522%253A%2522%2522%252C%2522cd%2522%253A%252215%2522%252C%2522spname%2522%253A%2522%2522%252C%2522imgs%2522%253A%2522%252FPublic%252Fmarqueimg%252F6636f112bcfe29045.png%2522%252C%2522updatetime%2522%253A%2522%2522%252C%2522special%2522%253A%25221%2522%252C%2522sfzd%2522%253A%25221%2522%252C%2522bb%2522%253A%2522%2522%252C%2522qcname%2522%253A%2522%2522%252C%2522num%2522%253A0%252C%2522price%2522%253Anull%257D%252C%257B%2522id%2522%253A%25224%2522%252C%2522xhname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259CiPhone15%255Ct%255Ct%2522%252C%2522sort%2522%253A%25224%2522%252C%2522hide%2522%253A%25220%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xlname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522ys%2522%253A%2522%2522%252C%2522ysname%2522%253A%2522%2522%252C%2522nc%2522%253A%2522%2522%252C%2522ncname%2522%253A%2522%2522%252C%2522wlxh%2522%253A%2522%2522%252C%2522cd%2522%253A%252215%2522%252C%2522spname%2522%253A%2522%2522%252C%2522imgs%2522%253A%2522%252FPublic%252Fmarqueimg%252F6636f115e32c62862.png%2522%252C%2522updatetime%2522%253A%2522%2522%252C%2522special%2522%253A%25221%2522%252C%2522sfzd%2522%253A%25221%2522%252C%2522bb%2522%253A%2522%2522%252C%2522qcname%2522%253A%2522%2522%252C%2522num%2522%253A0%252C%2522price%2522%253Anull%257D%252C%257B%2522id%2522%253A%25225%2522%252C%2522xhname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259CiPhone15%2520mini%255Ct%255Ct%2522%252C%2522sort%2522%253A%25225%2522%252C%2522hide%2522%253A%25220%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xlname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522ys%2522%253A%2522%2522%252C%2522ysname%2522%253A%2522%2522%252C%2522nc%2522%253A%2522%2522%252C%2522ncname%2522%253A%2522%2522%252C%2522wlxh%2522%253A%2522%2522%252C%2522cd%2522%253A%252215%2522%252C%2522spname%2522%253A%2522%2522%252C%2522imgs%2522%253A%2522%252FPublic%252Fmarqueimg%252F6636f117d5ad08016.png%2522%252C%2522updatetime%2522%253A%2522%2522%252C%2522special%2522%253A%25221%2522%252C%2522sfzd%2522%253A%25221%2522%252C%2522bb%2522%253A%2522%2522%252C%2522qcname%2522%253A%2522%2522%252C%2522num%2522%253A0%252C%2522price%2522%253Anull%257D%252C%257B%2522id%2522%253A%25226%2522%252C%2522xhname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259CiPhone15%2520%255Ct%255Ct%2522%252C%2522sort%2522%253A%25226%2522%252C%2522hide%2522%253A%25220%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xlname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522ys%2522%253A%2522%2522%252C%2522ysname%2522%253A%2522%2522%252C%2522nc%2522%253A%2522%2522%252C%2522ncname%2522%253A%2522%2522%252C%2522wlxh%2522%253A%2522%2522%252C%2522cd%2522%253A%252215%2522%252C%2522spname%2522%253A%2522%2522%252C%2522imgs%2522%253A%2522%252FPublic%252Fmarqueimg%252F6636f11b580154581.png%2522%252C%2522updatetime%2522%253A%2522%2522%252C%2522special%2522%253A%25221%2522%252C%2522sfzd%2522%253A%25221%2522%252C%2522bb%2522%253A%2522%2522%252C%2522qcname%2522%253A%2522%2522%252C%2522num%2522%253A0%252C%2522price%2522%253Anull%257D%252C%257B%2522id%2522%253A%25227%2522%252C%2522xhname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259CiPhone15%2520Pro%255Ct%255Ct%2522%252C%2522sort%2522%253A%25227%2522%252C%2522hide%2522%253A%25220%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xlname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522ys%2522%253A%2522%2522%252C%2522ysname%2522%253A%2522%2522%252C%2522nc%2522%253A%2522%2522%252C%2522ncname%2522%253A%2522%2522%252C%2522wlxh%2522%253A%2522%2522%252C%2522cd%2522%253A%252215%2522%252C%2522spname%2522%253A%2522%2522%252C%2522imgs%2522%253A%2522%252FPublic%252Fmarqueimg%252F6636f11db2c0a621.png%2522%252C%2522updatetime%2522%253A%2522%2522%252C%2522special%2522%253A%25221%2522%252C%2522sfzd%2522%253A%25221%2522%252C%2522bb%2522%253A%2522%2522%252C%2522qcname%2522%253A%2522%2522%252C%2522num%2522%253A0%252C%2522price%2522%253Anull%257D%252C%257B%2522id%2522%253A%25228%2522%252C%2522xhname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259CiPhone11%2520Pro%255Ct%2522%252C%2522sort%2522%253A%25228%2522%252C%2522hide%2522%253A%25220%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xlname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522ys%2522%253A%2522%2522%252C%2522ysname%2522%253A%2522%2522%252C%2522nc%2522%253A%2522%2522%252C%2522ncname%2522%253A%2522%2522%252C%2522wlxh%2522%253A%2522%2522%252C%2522cd%2522%253A%252215%2522%252C%2522spname%2522%253A%2522%2522%252C%2522imgs%2522%253A%2522%252FPublic%252Fmarqueimg%252F6636f11ff106e8412.png%2522%252C%2522updatetime%2522%253A%2522%2522%252C%2522special%2522%253A%25221%2522%252C%2522sfzd%2522%253A%25221%2522%252C%2522bb%2522%253A%2522%2522%252C%2522qcname%2522%253A%2522%2522%252C%2522num%2522%253A1%252C%2522price%2522%253A%2522999%2522%257D%252C%257B%2522id%2522%253A%25229%2522%252C%2522xhname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%2520Pro%2520Max%255Ct%255Ct%2522%252C%2522sort%2522%253A%25229%2522%252C%2522hide%2522%253A%25220%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xlname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522ys%2522%253A%2522%2522%252C%2522ysname%2522%253A%2522%2522%252C%2522nc%2522%253A%2522%2522%252C%2522ncname%2522%253A%2522%2522%252C%2522wlxh%2522%253A%2522%2522%252C%2522cd%2522%253A%252215%2522%252C%2522spname%2522%253A%2522%2522%252C%2522imgs%2522%253A%2522%252FPublic%252Fmarqueimg%252F6636f122cdd9b9418.png%2522%252C%2522updatetime%2522%253A%2522%2522%252C%2522special%2522%253A%25221%2522%252C%2522sfzd%2522%253A%25221%2522%252C%2522bb%2522%253A%2522%2522%252C%2522qcname%2522%253A%2522%2522%252C%2522num%2522%253A0%252C%2522price%2522%253Anull%257D%252C%257B%2522id%2522%253A%252213%2522%252C%2522xhname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259CiPhoneX%2522%252C%2522sort%2522%253A%252213%2522%252C%2522hide%2522%253A%25220%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xlname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522ys%2522%253A%2522%2522%252C%2522ysname%2522%253A%2522%2522%252C%2522nc%2522%253A%2522%2522%252C%2522ncname%2522%253A%2522%2522%252C%2522wlxh%2522%253A%2522%255CtA2678%255Ct%2522%252C%2522cd%2522%253A%252215%2522%252C%2522spname%2522%253A%2522%2522%252C%2522imgs%2522%253A%2522%252FPublic%252Fmarqueimg%252F6638894b6f7cc3870.png%2522%252C%2522updatetime%2522%253A%25221714984745%2522%252C%2522special%2522%253A%25221%2522%252C%2522sfzd%2522%253A%25221%2522%252C%2522bb%2522%253A%2522%2522%252C%2522qcname%2522%253A%2522%2522%252C%2522num%2522%253A0%252C%2522price%2522%253Anull%257D%252C%257B%2522id%2522%253A%252215%2522%252C%2522xhname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259CiPhone15%2520Pro%2520max%2522%252C%2522sort%2522%253A%252215%2522%252C%2522hide%2522%253A%25220%2522%252C%2522flid%2522%253A%25221%2522%252C%2522flname%2522%253A%2522%25E6%2589%258B%25E6%259C%25BA%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522ppname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xlname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25E7%25B3%25BB%25E5%2588%2597%2522%252C%2522ys%2522%253A%2522%2522%252C%2522ysname%2522%253A%2522%2522%252C%2522nc%2522%253A%2522%2522%252C%2522ncname%2522%253A%2522%2522%252C%2522wlxh%2522%253A%25222%255Ct%255Ct%2522%252C%2522cd%2522%253A%252215%2522%252C%2522spname%2522%253A%2522%2522%252C%2522imgs%2522%253A%2522%252FPublic%252Fmarqueimg%252F663b337c9c0a61815.png%2522%252C%2522updatetime%2522%253A%25221715760647%2522%252C%2522special%2522%253A%25221%2522%252C%2522sfzd%2522%253A%25222%2522%252C%2522bb%2522%253A%2522%255Ct%255Ct1%2522%252C%2522qcname%2522%253A%2522%25E8%258B%25B9%25E6%259E%259CiPhone15%2520Pro%2520max%2520%255Ct%255Ct1%2522%252C%2522num%2522%253A0%252C%2522price%2522%253Anull%257D%255D%257D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=8",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesTakePhoto/takePhoto/takePhoto",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFirstWholesale/firstWholeSale/firstWholeSale",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFirstWholesale/firstWholeSale/firstWholeSale",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesStaffManager/staffManager/staffManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesListingProduct/listingProduct/listingProduct",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesTakePhoto/takePhoto/takePhoto",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesQualityControl/qualityControl/qualityControl",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesQualityControl/qualityControl/qualityControl",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesQualityControl/qualityControl/qualityControl",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesQualityControl/qualityControl/qualityControl",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesQualityControl/qualityControl/qualityControl",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesQualityControl/qualityControl/qualityControl",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesQualityControl/qualityControl/qualityControl",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMaintenanceInput/maintenanceInput/maintenanceInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesStaffInfos/staffInfos/staffInfos",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesStaffManager/staffManager/staffManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesStaffInfos/staffInfos/staffInfos",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesAuthority/authority/authority",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesStaffInfos/staffInfos/staffInfos",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesStaffManager/staffManager/staffManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFinance/finance/finance",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFinance/finance/finance",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesClassify/classify/classify",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFinanceDetail/financeDetail/financeDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFinance/finance/finance",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesListingProduct/listingProduct/listingProduct",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMaintenanceInput/maintenanceInput/maintenanceInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesDataCenterProductList/dataCenterProductList/dataCenterProductList",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesDataCenterProductData/dataCenterProductData/dataCenterProductData",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesDataCenterDetail/dataCenterDetail/dataCenterDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesDataCenter/dataCenter/dataCenter",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMyCustomer/myCustomer/myCustomer",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomManager/customManager/customManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesDataCenter/dataCenter/dataCenter",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesDataCenter/dataCenter/dataCenter",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesImeiTrack/ImeiTrack/imeiTrack",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFirstWholesale/firstWholeSale/firstWholeSale",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFirstWholesale/firstWholeSale/firstWholeSale",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesInventoryManager/inventoryManager/inventoryManager",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesListingProduct/listingProduct/listingProduct",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFinenessJudge/finenessJudge/finenessJudge",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesTakePhoto/takePhoto/takePhoto",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesEditLog/editLog/editLog",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "order=4",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomSellOrderDetail/customSellOrderDetail/customSellOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomYjOrderDetail/customYjOrderDetail/customYjOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesRecoveryDetail/recoveryDetail/recoveryDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFinance/finance/finance",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesQualityControl/qualityControl/qualityControl",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomMine/customMine/customMine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMenber/menber/menber",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomMine/customMine/customMine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "order=4",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomMine/customMine/customMine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomOrder/customOrder/customOrder",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMenber/menber/menber",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomMine/customMine/customMine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesYjOrderDetail/yjOrderDetail/yjOrderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProduct/product/product",
+          "query": "id=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrder/order/order",
+          "query": "type=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrder/order/order",
+          "query": "type=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrder/order/order",
+          "query": "type=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFuncCheck/funcCheck/funcCheck",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=3",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=4",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesClassify/classify/classify",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/listCard/listCard",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesAddAddress/addAddress/addAddress",
+          "query": "id=14",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrder/order/order",
+          "query": "type=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrder/order/order",
+          "query": "type=2",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrder/order/order",
+          "query": "type=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/message/message",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductInput/productInput/productInput",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesSubOrder/subOrder/subOrder",
+          "query": "data=%255B%257B%2522id%2522%253A%252260%2522%252C%2522opid%2522%253A%2522oT4uj681IZVOC-f5iWnt41uR5IdA%2522%252C%2522goodsid%2522%253A%25223%2522%252C%2522num%2522%253A%25221%2522%252C%2522price%2522%253A%2522500%2522%252C%2522zt%2522%253A%25221%2522%252C%2522xiajia%2522%253A%25221%2522%252C%2522gsid%2522%253A%25221%2522%252C%2522add_time%2522%253A%25221713241633%2522%252C%2522goodinfos%2522%253A%257B%2522id%2522%253A%25223%2522%252C%2522qcid%2522%253A%25222%2522%252C%2522name%2522%253A%2522%25E8%258B%25B9%25E6%259E%259C15%25208G%252B129G%2520%25E7%2599%25BD%25E8%2589%25B2%2522%252C%2522sort%2522%253A%25220%2522%252C%2522hide%2522%253A%25220%2522%252C%2522ppid%2522%253A%25221%2522%252C%2522xlid%2522%253A%25221%2522%252C%2522xhid%2522%253A%25222%2522%252C%2522ncid%2522%253A%25222%2522%252C%2522ysid%2522%253A%25222%2522%252C%2522ch%2522%253A%2522355475791589836%2522%252C%2522wpbm%2522%253A%2522BYYP589836%2522%252C%2522efficiency%2522%253A%252280%2522%252C%2522price%2522%253A%2522500%2522%252C%2522fineness%2522%253A%25222%2522%252C%2522zhid%2522%253A%25222%2522%252C%2522finenessname%2522%253A%2522%25E5%2585%25A8%25E5%25A5%2597%25E5%25B7%25B2%25E6%25BF%2580%25E6%25B4%25BB%2522%252C%2522cover%2522%253A%2522%252FPublic%252Fcoverimage%252F202404110235397163.jpg%2522%252C%2522productimage%2522%253A%2522%252FPublic%252Fproductimage%252F2024041102353921.jpg%252C%252FPublic%252Fproductimage%252F202404110235396097.jpg%252C%252FPublic%252Fproductimage%252F202404110235395979.jpg%252C%2522%252C%2522gjbb%2522%253A%25222%2522%252C%2522wlbb%2522%253A%25221%2522%252C%2522gjbbname%2522%253A%2522%25E6%25B8%25AF%25E8%25A1%258C%2522%252C%2522wlbbname%2522%253A%2522%25E5%2585%25A8%25E7%25BD%2591%25E9%2580%259A%2522%252C%2522bxztid%2522%253A%25221%2522%252C%2522bxzt%2522%253A%2522%2522%252C%2522cgyname%2522%253A%2522bykjgly%2522%252C%2522uid%2522%253A%25224%2522%252C%2522times%2522%253A%25221712813701%2522%252C%2522machine%2522%253A%252210%252C13%252C14%252C15%252C16%252C17%252C%2522%252C%2522machinetime%2522%253A%25221712813825%2522%252C%2522jkuid%2522%253A%25224%2522%252C%2522gsid%2522%253A%25221%2522%252C%2522functional%2522%253A%252220%252C%2522%252C%2522functionaltime%2522%253A%25221712813825%2522%252C%2522gnjcuid%2522%253A%25224%2522%252C%2522service%2522%253A%252222%252C%2522%252C%2522servicetime%2522%253A%25221712813825%2522%252C%2522serviceuid%2522%253A%25224%2522%252C%2522zt%2522%253A%25221%2522%252C%2522shopid%2522%253A%25221%2522%252C%2522shopname%2522%253A%2522%25E5%258D%259A%25E5%25BC%2588%25E7%25A7%2591%25E6%258A%2580%2522%252C%2522delivery%2522%253A%2522%25E7%25BB%25B5%25E9%2598%25B3%25E5%25B8%2582%2522%252C%2522add_times%2522%253A%2522%2522%252C%2522special%2522%253A%2522%2522%257D%257D%255D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesAddress/address/address",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesLogin/login/login",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "id=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesClassify/classify/classify",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProduct/product/product",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesClassify/classify/classify",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesSuggest/suggest/suggest",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFinenessDetail/finenessDetail/finenessDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMarketCount/marketCount/marketCount",
+          "query": "type=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFineness/fineness/fineness",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesAccount/account/account",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMarketCount/marketCount/marketCount",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesAccount/account/account",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesAccount/account/account",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrder/order/order",
+          "query": "type=%E5%BE%85%E6%94%B6%E8%B4%A7",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/message/message",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomMine/customMine/customMine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMarket/market/market",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesNewSeeking/newSeeking/newSeeking",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesNewSeeking/newSeeking/newSeeking",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesNewSeeking/newSeeking/newSeeking",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesSubOrder/subOrder/subOrder",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProduct/product/product",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesNewSell/newSell/newSell",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesClassify/classify/classify",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesClassify/classify/classify",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesNewPosting/newPosting/newPosting",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/test/test",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesNewPosting/newPosting/newPosting",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomMine/customMine/customMine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesUserMine/userMine/userMine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesNewSell/newSell/newSell",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/market/market",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/listCard/listCard",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMenber/menber/menber",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesFirseProduct/fristProduct/fristProduct",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrderDetail/orderDetail/orderDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesOrder/order/order",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMenber/menber/menber",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesCustomMine/customMine/customMine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesUserMine/userMine/userMine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMarket/market/market",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesAddAddress/addAddress/addAddress",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesAddress/address/address",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesSearch/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesSeeking/seeking/seeking",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesSell/sell/sell",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesPaySuccess/paySuccess/paySuccess",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesSell/sell/sell",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesNewSell/newSell/newSell",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesNewPosting/newPosting/newPosting",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesNewSeeking/newSeeking/newSeeking",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMarket/market/market",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesClassify/classify/classify",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesRecovery/recovery/recovery",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/listCard/listCard",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesLogin/login/login",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesHome/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/market/market",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/message/message",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/message/message",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesPaySuccess/paySuccess/paySuccess",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesShopCar/shopCar/shopCar",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesSubOrder/subOrder/subOrder",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProductDetail/productDetail/productDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProduct/product/product",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesLogin/login/login",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesMaintenance/maintenance/maintenance",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/home/home",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesClassify/classify/classify",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pagesProduct/product/product",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/test/test",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/listCard/listCard",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

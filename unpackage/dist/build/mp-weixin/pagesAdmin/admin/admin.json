@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "identity-pannel": "../../components/identity-pannel/identity-pannel",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "custom-tabbar": "../../components/custom-tabbar/custom-tabbar"
+  }
+}

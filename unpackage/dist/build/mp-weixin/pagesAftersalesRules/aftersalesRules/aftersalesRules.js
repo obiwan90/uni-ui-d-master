@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),r={};if(!Array){e.resolveComponent("custom-header")()}Math;const o=e._export_sfc(r,[["render",function(e,r){return{}}],["__scopeId","data-v-bf715629"]]);wx.createPage(o);

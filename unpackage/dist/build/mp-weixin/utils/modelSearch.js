@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js"),o=e.Vs.database();o.collection("opendb-search-log"),o.collection("by-search-model"),o.collection("keyword"),e.ref(""),e.ref([]),e.Vs.importObject("search-model"),e.createJieba();

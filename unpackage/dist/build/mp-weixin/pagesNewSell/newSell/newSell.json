@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-uploader": "../../wxcomponents/dist/uploader/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "uv-checkbox": "../../uni_modules/uv-checkbox/components/uv-checkbox/uv-checkbox",
+    "uv-checkbox-group": "../../uni_modules/uv-checkbox/components/uv-checkbox-group/uv-checkbox-group",
+    "uv-radio": "../../uni_modules/uv-radio/components/uv-radio/uv-radio",
+    "uv-radio-group": "../../uni_modules/uv-radio/components/uv-radio-group/uv-radio-group",
+    "uv-upload": "../../uni_modules/uv-upload/components/uv-upload/uv-upload",
+    "uv-calendars": "../../uni_modules/uv-calendars/components/uv-calendars/uv-calendars",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "qiao-select": "../../uni_modules/qiao-select/components/qiao-select/qiaoSelect",
+    "jixing-pannel": "./components/jixingPannel"
+  }
+}

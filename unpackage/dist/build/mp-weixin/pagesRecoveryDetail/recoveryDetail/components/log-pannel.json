@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "custom-channel-tap": "../../../components/custom-channel-tap/custom-channel-tap",
+    "z-paging": "../../../uni_modules/z-paging/components/z-paging/z-paging"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";function e(){this.handlers=[]}require("../../../../../common/vendor.js"),e.prototype.use=function(e,t){return this.handlers.push({fulfilled:e,rejected:t}),this.handlers.length-1},e.prototype.eject=function(e){this.handlers[e]&&(this.handlers[e]=null)},e.prototype.forEach=function(e){this.handlers.forEach((t=>{null!==t&&e(t)}))},exports.InterceptorManager=e;

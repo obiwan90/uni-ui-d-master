@@ -1,0 +1,247 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.settings.data-v-ff21cd10 {
+  margin-bottom: 20rpx;
+  width: 710rpx;
+  height: 76rpx;
+  background: #786C68;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  margin-top: -32rpx;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.settings view.data-v-ff21cd10,
+.settings swiper.data-v-ff21cd10,
+.settings swiper-item.data-v-ff21cd10 {
+  box-sizing: border-box;
+}
+.settings .settings-box.data-v-ff21cd10 {
+  box-sizing: border-box;
+  height: 50rpx;
+  width: 100%;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.settings .settings-box .settings-l.data-v-ff21cd10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.settings .settings-box .settings-l text.data-v-ff21cd10 {
+  height: 34rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.settings .settings-box .settings-r.data-v-ff21cd10 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.settings .settings-box .settings-r .settings-r-l.data-v-ff21cd10 {
+  display: flex;
+  align-items: center;
+}
+.settings .settings-box .settings-r .settings-r-l image.data-v-ff21cd10 {
+  height: 24rpx;
+  width: 24rpx;
+  margin-right: 10rpx;
+}
+.settings .settings-box .settings-r .settings-r-l text.data-v-ff21cd10 {
+  height: 34rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin-right: 20rpx;
+}
+.settings .settings-box .settings-r .divile.data-v-ff21cd10 {
+  width: 2rpx;
+  height: 20rpx;
+  background: #FFFFFF;
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  opacity: 0.2;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.settings .settings-box .settings-r .settings-r-r.data-v-ff21cd10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.settings .settings-box .settings-r .settings-r-r image.data-v-ff21cd10 {
+  height: 22rpx;
+  width: 22rpx;
+  margin-right: 10rpx;
+}
+.settings .settings-box .settings-r .settings-r-r text.data-v-ff21cd10 {
+  width: 48rpx;
+  height: 34rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+.container.data-v-ff21cd10 {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  background: #FFFFFF;
+}
+.container view.data-v-ff21cd10,
+.container swiper.data-v-ff21cd10,
+.container swiper-item.data-v-ff21cd10 {
+  box-sizing: border-box;
+}
+.container .product-box.data-v-ff21cd10 {
+  display: flex;
+  box-shadow: 0rpx 0rpx 10rpx 2rpx rgba(0, 0, 0, 0.1);
+  border-radius: 20rpx;
+  width: 710rpx;
+  height: 238rpx;
+  padding: 24rpx 24rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .product-box .box-l.data-v-ff21cd10 {
+  display: flex;
+  margin-right: 20rpx;
+}
+.container .product-box .box-l .image-tap.data-v-ff21cd10 {
+  margin-top: 6rpx;
+  margin-left: 6rpx;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rpx 0rpx 10rpx 0rpx;
+  background: linear-gradient(180deg, #ed784b 0%, #eb4636 100%);
+  width: 96rpx;
+  height: 28rpx;
+}
+.container .product-box .box-l .image-tap text.data-v-ff21cd10 {
+  width: 80rpx;
+  height: 28rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 20rpx;
+  color: #ffffff;
+}
+.container .product-box .box-r.data-v-ff21cd10 {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .product-box .box-r .top.data-v-ff21cd10 {
+  width: 100%;
+}
+.container .product-box .box-r .top .title.data-v-ff21cd10 {
+  width: 100%;
+  display: inline-block;
+}
+.container .product-box .box-r .top .title .tap.data-v-ff21cd10 {
+  float: left;
+  margin-right: 10rpx;
+}
+.container .product-box .box-r .top .title text.data-v-ff21cd10 {
+  vertical-align: top;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 500;
+  font-size: 30rpx;
+  color: #1f1f1f;
+}
+.container .product-box .box-r .top .mind.data-v-ff21cd10 {
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container .product-box .box-r .bottom.data-v-ff21cd10 {
+  display: flex;
+  align-items: center;
+}
+.container .product-box .box-r .bottom .text-info .text-1.data-v-ff21cd10 {
+  height: 32rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 22rpx;
+  color: #1f1f1f;
+}
+.container .product-box .box-r .bottom .text-info .text-2.data-v-ff21cd10 {
+  height: 38rpx;
+  font-family: DIN, DIN;
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #e6432e;
+}
+.container .product-box .box-r .bottom .text-info .text-3.data-v-ff21cd10 {
+  height: 32rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 22rpx;
+  color: #1f1f1f;
+}
+.container .product-box .box-r .bottom .other-tap.data-v-ff21cd10 {
+  height: 36rpx;
+  width: 78rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36rpx;
+  background: linear-gradient(180deg, #ED784B 0%, #EB4636 100%);
+  border-radius: 8rpx 8rpx 8rpx 8rpx;
+}
+.container .product-box .box-r .bottom .other-tap text.data-v-ff21cd10 {
+  width: 66rpx;
+  height: 32rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 22rpx;
+  color: #FFFFFF;
+}

@@ -1,0 +1,1 @@
+"use strict";const t=require("../../utils/customRequest.js");exports.apiGetBargainingtime=function(e){return t.customRequest("/Home/Bargaining/bargainingtime",e,"POST")},exports.apiGetProductDetail=function(e){return t.customRequest("/Home/Goods/infos",e,"POST")},exports.apiPosterSubmit=function(e){return t.customRequest("/Home/Sales/tjadd",e,"POST")};

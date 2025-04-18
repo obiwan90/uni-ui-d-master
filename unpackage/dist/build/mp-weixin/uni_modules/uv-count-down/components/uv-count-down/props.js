@@ -1,0 +1,1 @@
+"use strict";var t,e;const o=require("../../../../common/vendor.js"),r={props:{time:{type:[String,Number],default:0},format:{type:String,default:"HH:mm:ss"},autoStart:{type:Boolean,default:!0},millisecond:{type:Boolean,default:!1},...null==(e=null==(t=o.index.$uv)?void 0:t.props)?void 0:e.countDown}};exports.props=r;

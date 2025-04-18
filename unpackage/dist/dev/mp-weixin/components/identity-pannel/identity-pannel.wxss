@@ -1,0 +1,158 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-bd945fa2 {
+  box-sizing: border-box;
+}
+.identity-pannel.data-v-bd945fa2 {
+  width: 590rpx;
+  height: 792rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.1);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+  padding-top: 30rpx;
+  padding-bottom: 66rpx;
+}
+.identity-pannel .title.data-v-bd945fa2 {
+  width: 100%;
+  margin-bottom: 32rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.identity-pannel .title text.data-v-bd945fa2 {
+  font-family: PingFang SC, PingFang SC;
+  font-weight: bold;
+  font-size: 36rpx;
+  color: #1f1f1f;
+  text-align: left;
+}
+.identity-pannel .title image.data-v-bd945fa2 {
+  height: 32rpx;
+  width: 32rpx;
+  border-radius: 50%;
+}
+.identity-pannel .card.data-v-bd945fa2 {
+  width: 530rpx;
+  height: 144rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 6rpx 20rpx 2rpx rgba(0, 0, 0, 0.05);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+}
+.identity-pannel .card.active .col2 image.data-v-bd945fa2 {
+  display: block;
+}
+.identity-pannel .card .col1.data-v-bd945fa2 {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.identity-pannel .card .col1 image.data-v-bd945fa2 {
+  border-radius: 50%;
+  width: 96rpx;
+  height: 96rpx;
+  margin-right: 24rpx;
+}
+.identity-pannel .card .col1 .content.data-v-bd945fa2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+}
+.identity-pannel .card .col1 .content.justify-content-center.data-v-bd945fa2 {
+  justify-content: center;
+}
+.identity-pannel .card .col1 .content text.data-v-bd945fa2 {
+  height: 44rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #1f1f1f;
+  text-align: center;
+}
+.identity-pannel .card .col1 .content .tap.data-v-bd945fa2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8rpx;
+  padding-right: 8rpx;
+  height: 38rpx;
+  background: linear-gradient(272deg, #ff6d0c 0%, #fc553f 50%, #ff6d0c 100%);
+  border-radius: 60rpx 60rpx 60rpx 60rpx;
+}
+.identity-pannel .card .col1 .content .tap.tap-admin.data-v-bd945fa2 {
+  background: linear-gradient(272deg, #EFC99E 0%, #CA9667 50%, #C99566 54%, #EFC99E 100%);
+}
+.identity-pannel .card .col1 .content .tap text.data-v-bd945fa2 {
+  height: 34rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #ffffff;
+  text-align: center;
+}
+.identity-pannel .card .col2.data-v-bd945fa2 {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.identity-pannel .card .col2 image.data-v-bd945fa2 {
+  width: 32rpx;
+  height: 32rpx;
+  border-radius: 50%;
+}
+.identity-pannel .btn.data-v-bd945fa2 {
+  position: absolute;
+  bottom: 30rpx;
+  margin-top: 46rpx;
+  width: 488rpx;
+  height: 96rpx;
+  background: linear-gradient(135deg, #ff6d0c 0%, #eb4636 100%);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.identity-pannel .btn text.data-v-bd945fa2 {
+  height: 44rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #ffffff;
+  text-align: center;
+}

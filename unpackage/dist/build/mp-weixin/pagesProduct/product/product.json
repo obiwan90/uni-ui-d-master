@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "van-image": "../../wxcomponents/dist/image/index",
+    "custom-shop-tabbar": "../../components/custom-shop-tabbar/custom-shop-tabbar",
+    "z-paging": "../../uni_modules/z-paging/components/z-paging/z-paging",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "jixing-pannel": "./components/jixing",
+    "sai-xuan-pannel": "./components/saixuan",
+    "product-card": "./components/productCard",
+    "product-edit-price": "./components/productEditPrice"
+  }
+}

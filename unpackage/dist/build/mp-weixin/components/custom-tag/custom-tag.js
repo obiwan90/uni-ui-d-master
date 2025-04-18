@@ -1,0 +1,1 @@
+"use strict";const t=require("../../common/vendor.js"),o={__name:"custom-tag",props:["tagText","bgColor"],setup:o=>(e,r)=>({a:t.t(o.tagText),b:o.bgColor})},e=t._export_sfc(o,[["__scopeId","data-v-d97796dd"]]);wx.createComponent(e);

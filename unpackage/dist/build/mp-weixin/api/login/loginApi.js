@@ -1,0 +1,1 @@
+"use strict";const e=require("../../utils/customRequest.js");exports.apiGetPhone=function(s){return e.customRequest("/Home/Users/jm?",s,"POST")},exports.apiGetToken=function(){return e.customRequest("/Home/index/index","","GET")},exports.apiLogin=function(s){return e.customRequest("/Home/Users/get_session_keys",s,"POST")};

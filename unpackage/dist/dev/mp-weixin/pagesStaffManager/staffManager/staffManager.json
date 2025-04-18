@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "van-dropdown-menu": "../../wxcomponents/dist/dropdown-menu/index",
+    "van-dropdown-item": "../../wxcomponents/dist/dropdown-item/index",
+    "van-tag": "../../wxcomponents/dist/tag/index",
+    "van-button": "../../wxcomponents/dist/button/index",
+    "van-progress": "../../wxcomponents/dist/progress/index",
+    "van-swipe-cell": "../../wxcomponents/dist/swipe-cell/index",
+    "van-cell": "../../wxcomponents/dist/cell/index",
+    "van-cell-group": "../../wxcomponents/dist/cell-group/index",
+    "custom-header": "../../components/custom-header/custom-header",
+    "uni-list-item": "../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-list": "../../uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-collapse-item": "../../uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item",
+    "uni-collapse": "../../uni_modules/uni-collapse/components/uni-collapse/uni-collapse"
+  }
+}

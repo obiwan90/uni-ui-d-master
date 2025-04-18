@@ -1,0 +1,436 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-8a208f8e {
+  box-sizing: border-box;
+}
+.customManager-layout.data-v-8a208f8e {
+  min-height: 100vh;
+  background: #f3f2f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-fill.data-v-8a208f8e {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search.data-v-8a208f8e {
+  background: #ffffff;
+  margin-bottom: 32rpx;
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72rpx;
+  width: 750rpx;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+.search .searchBar.data-v-8a208f8e {
+  padding-left: 10rpx;
+  width: 618rpx;
+  height: 72rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(59, 43, 15, 0.05);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  border: 2rpx solid #242424;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search .searchBar .position.data-v-8a208f8e {
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search .searchBar .position .position-text.data-v-8a208f8e {
+  height: 44rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #1f1f1f;
+}
+.search .searchBar .position .position-image.data-v-8a208f8e {
+  margin-left: 10rpx;
+  width: 20rpx;
+  height: 20rpx;
+}
+.search .searchBar .right.data-v-8a208f8e {
+  display: flex;
+  align-items: center;
+}
+.search .searchBar .right .inline.data-v-8a208f8e {
+  margin-right: 30rpx;
+  width: 2rpx;
+  height: 28rpx;
+  background: #eeeeee;
+  border-radius: 10rpx 10rpx 10rpx 10rpx;
+}
+.search .searchBar .right image.data-v-8a208f8e {
+  margin-right: 30rpx;
+  height: 30rpx;
+  width: 30rpx;
+}
+.search .searchBar .search-content.data-v-8a208f8e {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20rpx;
+  flex: 1;
+}
+.search .searchBar .search-content .search-image.data-v-8a208f8e {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 15rpx;
+}
+.search .searchBar .search-content .selectDownUp.data-v-8a208f8e {
+  width: 100%;
+}
+.search .searchBar .search-content .search-content-text.data-v-8a208f8e {
+  width: 400rpx;
+  height: 36rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 26rpx;
+  color: #1f1f1f;
+  text-align: left;
+  opacity: 0.6;
+}
+.search .select-btn.data-v-8a208f8e {
+  width: 72rpx;
+  height: 72rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.05), inset 0rpx 0rpx 12rpx 2rpx rgba(255, 255, 255, 0.16);
+  border-radius: 10rpx 10rpx 10rpx 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search .select-btn image.data-v-8a208f8e {
+  height: 28rpx;
+  width: 36rpx;
+}
+.bottom.data-v-8a208f8e {
+  box-sizing: border-box;
+  margin-top: 30rpx;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  grid-row-gap: 20rpx;
+}
+.bottom .data-center-card.data-v-8a208f8e {
+  width: 158rpx;
+  height: 104rpx;
+  background: #f8f8f8;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+.bottom .data-center-card .text-1.data-v-8a208f8e {
+  height: 44rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #1f1f1f;
+  text-align: center;
+  font-style: normal;
+  text-transform: none;
+}
+.bottom .data-center-card .text-2.data-v-8a208f8e {
+  height: 32rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 22rpx;
+  color: #1f1f1f;
+  line-height: 52rpx;
+  text-align: center;
+  font-style: normal;
+  text-transform: none;
+  opacity: 0.6;
+}
+.bottom-btn.data-v-8a208f8e {
+  width: 750rpx;
+  height: 182rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(0, 0, 0, 0.1);
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-top: 20rpx;
+  padding-bottom: 62rpx;
+}
+.bottom-btn .center-btn.data-v-8a208f8e {
+  width: 690rpx;
+  height: 96rpx;
+  background: linear-gradient(135deg, #ff6d0c 0%, #eb4636 100%);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #ffffff;
+  text-align: center;
+}
+.bottom-btn .left-btn.data-v-8a208f8e {
+  width: 232rpx;
+  height: 96rpx;
+  background: #ffeeec;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #eb4636;
+  text-align: center;
+}
+.bottom-btn .right-btn.data-v-8a208f8e {
+  width: 444rpx;
+  height: 96rpx;
+  background: linear-gradient(135deg, #ff6d0c 0%, #eb4636 100%);
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #ffffff;
+  text-align: center;
+}
+.saixuan.data-v-8a208f8e {
+  border-top: 1rpx solid #f3f2f6;
+  width: 750rpx;
+  padding-bottom: 30rpx;
+  background: #ffffff;
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-top: 30rpx;
+}
+.saixuan .top.data-v-8a208f8e {
+  display: flex;
+  justify-content: space-between;
+}
+.saixuan .bottom.data-v-8a208f8e {
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.saixuan .bottom .num-card.data-v-8a208f8e {
+  box-shadow: 0rpx 0rpx 20rpx 2rpx rgba(59, 43, 15, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 210rpx;
+  height: 100rpx;
+  background: #ffefee;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  justify-content: space-between;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+.saixuan .bottom .num-card .row-1.data-v-8a208f8e {
+  display: flex;
+  flex-direction: column;
+}
+.saixuan .bottom .num-card .row-1 text.data-v-8a208f8e {
+  height: 38rpx;
+  font-family: DIN, DIN;
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #1f1f1f;
+  text-align: center;
+}
+.saixuan .bottom .num-card .row-2.data-v-8a208f8e {
+  display: flex;
+  flex-direction: column;
+}
+.saixuan .bottom .num-card .row-2 text.data-v-8a208f8e {
+  height: 34rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #1f1f1f;
+  text-align: center;
+}
+.dropdown-container.data-v-8a208f8e {
+  position: relative;
+  display: flex;
+  transition: height 0.5s ease;
+  /* 添加过渡效果 */
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdown-menu.data-v-8a208f8e {
+  background: #ffffff;
+  box-shadow: 0rpx 0rpx 40rpx 2rpx rgba(0, 0, 0, 0.1);
+  border-radius: 20rpx;
+  position: absolute;
+  top: 94rpx;
+  left: 0;
+  width: 710rpx;
+  z-index: 30;
+  padding: 30rpx 24rpx;
+  display: none;
+  /* 初始状态隐藏 */
+  transition: display 0.5s ease;
+  /* 添加过渡效果 */
+}
+.expanded .dropdown-menu.data-v-8a208f8e {
+  display: block;
+  /* 展开时显示 */
+  animation: dropdownAnimation-8a208f8e 0.5s ease;
+  /* 添加动画效果 */
+}
+.dropdown-bubble.data-v-8a208f8e {
+  position: absolute;
+  top: -20rpx;
+  /* left: 30rpx; */
+  right: 30rpx;
+  width: 0;
+  height: 0;
+  border-left: 12rpx solid transparent;
+  border-right: 12rpx solid transparent;
+  border-bottom: 24rpx solid #ffffff;
+}
+.text-11.data-v-8a208f8e {
+  height: 40rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #1f1f1f;
+  text-align: center;
+  font-style: normal;
+  text-transform: none;
+  opacity: 0.4;
+}
+.text-12.data-v-8a208f8e {
+  height: 44rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #1f1f1f;
+  text-align: center;
+  font-style: normal;
+  text-transform: none;
+}
+.text-13.data-v-8a208f8e {
+  height: 44rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #ffffff;
+  text-align: center;
+  font-style: normal;
+  text-transform: none;
+}
+.text-14.data-v-8a208f8e {
+  height: 40rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 28rpx;
+  color: #1f1f1f;
+  text-align: center;
+  font-style: normal;
+  text-transform: none;
+}
+@keyframes dropdownAnimation-8a208f8e {
+from {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+.dropdown-container:not(.expanded) .dropdown-menu.data-v-8a208f8e {
+  display: none;
+  animation: collapseAnimation-8a208f8e 0.5s ease;
+}
+@keyframes collapseAnimation-8a208f8e {
+from {
+    opacity: 1;
+    transform: translateY(0);
+}
+to {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+}
+.selected.data-v-8a208f8e {
+  transition: all 0.3s !important;
+  background: #eb4636 !important;
+}
+.selected text.data-v-8a208f8e {
+  transition: all 0.3s !important;
+  font-size: 28rpx !important;
+  color: #ffffff !important;
+}
+.data-select.data-v-8a208f8e {
+  width: 180rpx;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  font-size: 32rpx;
+  color: #1F1F1F;
+}
+.data-select.data-v-8a208f8e .uni-select__selector {
+  width: 220rpx;
+  left: -70rpx;
+}
+.data-select.data-v-8a208f8e .uni-select__input-text {
+  opacity: 0;
+}
+.data-select.data-v-8a208f8e .uni-popper__arrow_bottom {
+  left: 70%;
+}
+.data-select.data-v-8a208f8e .uni-select {
+  border: none;
+}
